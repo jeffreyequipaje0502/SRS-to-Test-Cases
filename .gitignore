@@ -1,0 +1,12 @@
+# Python bytecode cache (should not be created with sys.dont_write_bytecode,
+# but this prevents accidental commits if it ever appears)
+__pycache__/
+*.pyc
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Input and output files
+input/*
+output/*

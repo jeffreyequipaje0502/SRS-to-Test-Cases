@@ -1,0 +1,13 @@
+{
+  "version": "v1",
+  "hooks": [
+    {
+      "name": "Enforce SRS to Test Cases Skill",
+      "trigger": "UserPromptSubmit",
+      "action": {
+        "type": "agent",
+        "prompt": "MANDATORY INSTRUCTION — applies if the user's message contains any of these signals: \"generate test cases\", \"create test cases\", \"create test scenarios\", \"analyze SRS\", \"test scenarios from\", \"test cases from\", or if an SRS / requirements document (PDF or attachment) is present in the conversation.\n\nIf ANY of those signals are present, you MUST do the following — in this exact order — before producing any output:\n\n1. READ the skill file at `.kiro/skills/srs-to-testcases.md` using the read_file tool. Do not skip this step even if you think you already know the format.\n2. Follow EVERY instruction in that skill file exactly — including the output format (Azure DevOps .xlsx via Python script), naming conventions, summary format, and gap analysis.\n3. DO NOT produce a Markdown file, plain-text table, or any other format instead of .xlsx. The skill requires an Excel file.\n4. DO NOT skip creating the data script in `output/<SRS_name>_data.py` and running it with Python to produce the .xlsx.\n5. After the .xlsx is generated, provide the plain-language chat summary exactly as specified in Step 5 of the skill.\n\nFailure to follow these steps means the skill was not executed. There is no valid reason to substitute a different output format."
+      }
+    }
+  ]
+}
