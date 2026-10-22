@@ -6,9 +6,9 @@ takes a list of test-case dictionaries and writes an Azure DevOps-importable
 .xlsx file.  It is imported by per-SRS data scripts under output/.
 
 Do NOT add test-case data to this file.  Each SRS gets its own data script:
-    output/<SRS_name>_data.py
+    output/<SRS_identifier>_data.py
 
-See output/SwiftCharge_example_data.py for a working example.
+See output/PHL-CTB-CIB-08-IB_SRS_v1.3_data.py for a working example.
 """
 
 import os

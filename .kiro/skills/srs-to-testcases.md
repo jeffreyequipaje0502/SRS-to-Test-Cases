@@ -192,12 +192,32 @@ Row 3 (step):   ID=blank, WorkItemType=blank, Title=blank, TestStep=2, StepActio
 
 ### Title Naming Convention
 Use this pattern for test case titles:
-`[Feature] [Platform if applicable] <Scenario description>`
+`<Feature Name> [Sub-category if applicable] [Test Type if applicable] Verify <scenario description>`
 
-Examples:
-- `Swift Charge Verify that a logged-in user can initiate a charge request with valid amount`
-- `Swift Charge [Negative] Verify that system displays error when amount exceeds daily limit`
-- `Swift Charge [Boundary] Verify minimum transaction amount is accepted`
+**CRITICAL — the title prefix MUST be the actual functional requirement / feature name as stated in the SRS content, NOT the SRS document filename.**
+
+When an SRS covers multiple functional requirements or features, each test case must be prefixed with the specific feature it belongs to. Do NOT use a single feature name or the SRS document name as a universal prefix for all test cases.
+
+**How to determine the correct prefix:**
+- Read the SRS section headings and functional requirement names
+- Each distinct functional requirement / feature section gets its own prefix
+- Use the feature name as it appears in the SRS (e.g., "Transaction History", "FO Reports")
+- Add a sub-category in brackets if the feature has distinct sub-types (e.g., `[Piecemeal]`, `[Bulk]`)
+- Add a test type tag if applicable (e.g., `[Negative]`, `[Boundary]`, `[UI]`)
+
+**Multi-feature SRS example (4 functional requirements):**
+- `Transaction History [Piecemeal] Verify Transaction History view displays Success status`
+- `Transaction History [Piecemeal] [Negative] Verify user without function privilege cannot access Transaction History`
+- `Bulk Fund Transfer Verify Bulk Fund Transfer view displays Success status`
+- `Bulk Fund Transfer [Boundary] Verify bulk file with 1000 records downloads as 1 PDF with 1000 pages`
+- `FO Reports [Piecemeal] Verify Channel filter is mandatory`
+- `FO Reports [Bulk] [Negative] Verify error when Batch Reference ID is not provided`
+- `Swift Charge Verify SWIFT Charge Option field is available when adding a Global Remittance counterparty`
+- `Swift Charge [Negative] Verify system rejects record when charge option in template does not match counterparty record`
+
+**Single-feature SRS example:**
+- `P2M [Mobile: Android] Verify that a logged-in user can scan a valid BancNet partner merchant QRPH`
+- `P2M [Mobile: Android] [Negative] Verify that the application displays an error prompt when a user scans an invalid QR code`
 
 ### Step Writing Guidelines
 - **Step Action**: Write in imperative form ("Enter", "Tap", "Navigate to", "Select", "Verify")
@@ -212,16 +232,22 @@ Examples:
 
 A reusable Excel generator already exists at `scripts/generate_testcases.py`.
 **Do NOT recreate it.** It contains the `generate_test_cases_excel()` function with all formatting, headers, and Azure DevOps structure already handled.
-A working example data script exists at `output/SwiftCharge_example_data.py` — use it as a reference for the expected pattern.
+A working example data script exists at `output/PHL-CTB-CIB-08-IB_SRS_v1.3_data.py` — use it as a reference for the expected pattern.
 
 Your only job is to create a small **data script** that imports and calls it.
 
 ### How to do it:
 
-1. Create a new file named `output/<SRS_name>_data.py` (e.g., `output/SwiftCharge_data.py`)
+1. Create a new file named `output/<SRS_identifier>_data.py` (e.g., `output/PHL-CTB-CIB-08-IB_SRS_v1.3_data.py`)
 2. Populate the `test_cases` list with the test cases you designed from the SRS analysis
 3. Set `AREA_PATH` from the SRS document header/ID
-4. Set `OUTPUT_PATH` to `output/<SRS_name>_TestCases.xlsx`
+4. Set `OUTPUT_PATH` to `output/<SRS_identifier>_TestCases.xlsx` (e.g., `output/PHL-CTB-CIB-08-IB_SRS_v1.3_TestCases.xlsx`)
+
+**How to determine `<SRS_identifier>`:**
+- Derive the identifier from the SRS PDF filename or document code — NOT from a single feature name
+- If the SRS covers multiple features, use the SRS document's project code or full document name
+- This ensures the file name represents the entire SRS, not just one feature within it
+- Example: For `PHL-CTB-CIB-08-IB-Swift Charge_SRS_v1.3.pdf`, use `PHL-CTB-CIB-08-IB_SRS_v1.3` as the identifier
 5. Run the script
 
 ### Data script template:
@@ -234,7 +260,7 @@ sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', 'scripts'))
 from generate_testcases import generate_test_cases_excel
 
 AREA_PATH = ""        # Set from SRS, e.g., "PHL-CTB-CIB-08-IB"
-OUTPUT_PATH = "output/SRS_TestCases.xlsx"  # Update with actual SRS name
+OUTPUT_PATH = "output/<SRS_identifier>_TestCases.xlsx"  # Use SRS document code, not a single feature name
 
 test_cases = [
     {
@@ -254,7 +280,7 @@ generate_test_cases_excel(test_cases, OUTPUT_PATH, AREA_PATH)
 
 Then run it:
 ```
-python output/<SRS_name>_data.py
+python output/<SRS_identifier>_data.py
 ```
 
 ---

@@ -57,7 +57,7 @@ That's it. Hit send.
 
 ## Your Output
 
-**Excel file** → `output/<SRS_name>_TestCases.xlsx`
+**Excel file** → `output/<SRS_identifier>_TestCases.xlsx`
 
 This file is already formatted for Azure DevOps import.  
 No editing needed — just import it directly.
@@ -73,11 +73,12 @@ No editing needed — just import it directly.
 
 ## Example
 
-> You drag in `SwiftCharge_SRS_v1.3.pdf` and type:  
+> You drag in `PHL-CTB-CIB-08-IB-Swift Charge_SRS_v1.3.pdf` and type:  
 > *"Generate test cases from this SRS"*
 >
-> Kiro produces → `output/SwiftCharge_TestCases.xlsx`  
-> with 40+ test cases, all steps filled in, ready to import.
+> Kiro produces → `output/PHL-CTB-CIB-08-IB_SRS_v1.3_TestCases.xlsx`  
+> with 100+ test cases, all steps filled in, ready to import.  
+> Test case titles are prefixed with the actual feature name (e.g., "Transaction History", "FO Reports", "Swift Charge") — not the SRS filename.
 
 ---
 
@@ -85,4 +86,4 @@ No editing needed — just import it directly.
 
 - The Excel generator script lives in `scripts/generate_testcases.py` — **do not delete it**
 - Each run creates a new Excel file — previous ones are not overwritten
-- If you want to re-run or tweak, the data script is saved in `output/<SRS_name>_data.py`
+- If you want to re-run or tweak, the data script is saved in `output/<SRS_identifier>_data.py`
