@@ -186,7 +186,7 @@ The Excel file must follow this exact structure, matching the column layout used
 | F | Step Expected | The expected result of that step; leave blank for parent row |
 | G | Area Path | Use the project area path from the SRS if available (e.g., `PHL-CTB-08-IB`) |
 | H | State | Always `Ready` for new test cases |
-| I | Complexity | Estimate: `1`=Simple, `3`=Medium, `5`=Complex |
+| I | Complexity (Note: Values are in minutes) | Estimate: `10`=Low, `20`=Medium, `30`=High, `40`=Very High |
 | J | Assigned To | Leave blank unless specified |
 | K | Status of automation | Always `Not yet automated` for newly generated test cases |
 
