@@ -1,0 +1,155 @@
+- generic [ref=e136]:
+  - navigation [ref=e138]:
+    - generic [ref=e139]:
+      - link:
+        - /url: "#"
+    - generic [ref=e140]:
+      - list [ref=e141]:
+        - listitem: 
+        - listitem [ref=e142]:
+          - link "" [ref=e143] [cursor=pointer]:
+            - /url: javascript:void(0)
+      - img "homepage" [ref=e146]
+      - list [ref=e147]:
+        - listitem [ref=e148]:
+          - link [ref=e149] [cursor=pointer]:
+            - /url: "#"
+            - img "user" [ref=e150]
+        - listitem [ref=e151]:
+          - link [ref=e152] [cursor=pointer]:
+            - /url: "#"
+            - img "user" [ref=e153]
+          - text:         
+        - listitem [ref=e156]:
+          - link [ref=e157] [cursor=pointer]:
+            - /url: "#"
+            - img "user" [ref=e158]
+          - text:  
+  - navigation [ref=e162]:
+    - list [ref=e163]:
+      - listitem [ref=e164] [cursor=pointer]
+      - listitem [ref=e165] [cursor=pointer]:
+        - generic [ref=e166]: Dashboard
+      - listitem [ref=e168] [cursor=pointer]:
+        - generic [ref=e169]: Security Settings
+      - listitem [ref=e171] [cursor=pointer]:
+        - generic [ref=e172]: User Maintenance
+      - listitem [ref=e174] [cursor=pointer]:
+        - generic [ref=e175]: Auth Role
+      - listitem [ref=e177] [cursor=pointer]:
+        - generic [ref=e178]: Accounts
+      - listitem [ref=e180] [cursor=pointer]:
+        - generic [ref=e181]: Counterparty Maintenance
+      - listitem [ref=e183] [cursor=pointer]:
+        - generic [ref=e184]: Biller Maintenance
+      - listitem [ref=e186] [cursor=pointer]:
+        - generic [ref=e187]: Fund Transfer
+        - list [ref=e811]:
+          - listitem [ref=e812]:
+            - generic [ref=e813]: New Fund Transfer
+          - listitem [ref=e814]:
+            - generic [ref=e815]: Bulk Fund Transfer
+          - listitem [ref=e816]:
+            - generic [ref=e817]: Approve/Reject Transfer
+          - listitem [ref=e818]:
+            - generic [ref=e819]: Verify/Reject Transfer
+          - listitem [ref=e820]:
+            - generic [ref=e821]: Ongoing Fund Transfers
+          - listitem [ref=e822]:
+            - generic [ref=e823]: Scheduled Fund Transfer
+          - listitem [ref=e824]:
+            - generic [ref=e825]: Transaction History
+      - listitem [ref=e189] [cursor=pointer]:
+        - generic [ref=e190]: Bills Payment
+      - listitem [ref=e192] [cursor=pointer]:
+        - generic [ref=e193]: PDC Warehousing
+      - listitem [ref=e195] [cursor=pointer]:
+        - generic [ref=e196]: Reports
+      - listitem [ref=e198] [cursor=pointer]:
+        - generic [ref=e199]: Mail Box
+      - listitem [ref=e201] [cursor=pointer]:
+        - generic [ref=e202]: Download Templates
+      - listitem [ref=e204] [cursor=pointer]:
+        - generic [ref=e205]: Service Request
+  - generic [ref=e208]:
+    - generic [ref=e210]:
+      - heading "Transaction History" [level=5] [ref=e946]
+      - list [ref=e214]:
+        - listitem [ref=e215] [cursor=pointer]:
+          - link "Home" [ref=e216]:
+            - /url: "#/main/dashboard"
+        - listitem [ref=e217] [cursor=pointer]:
+          - generic [ref=e218]: 
+          - text: Fund Transfer
+        - listitem [ref=e659] [cursor=pointer]:
+          - generic [ref=e660]: 
+          - text: Transaction History
+    - generic [ref=e1226]:
+      - generic [ref=e1227]:
+        - generic [ref=e1228]: Reference Number
+        - generic [ref=e1230]: "00117128"
+        - separator [ref=e1231]
+        - generic [ref=e1232]: UETR
+        - generic [ref=e1233]: "-"
+        - separator [ref=e1234]
+        - generic [ref=e1237]:
+          - generic [ref=e1238]:
+            - generic [ref=e1239]: 
+            - text: Amount
+          - generic [ref=e1240]: PHP 2.00
+        - separator [ref=e1241]
+        - generic [ref=e1244]:
+          - generic [ref=e1245]:
+            - generic [ref=e1246]: 
+            - text: Fee
+          - generic [ref=e1247]: PHP 0.00
+        - separator [ref=e1248]
+        - generic [ref=e1251]:
+          - generic [ref=e1252]:
+            - generic [ref=e1253]: 
+            - text: Total Amount
+          - generic [ref=e1254]: PHP 2.00
+        - separator [ref=e1255]
+        - generic [ref=e1256]: Transaction Date
+        - generic [ref=e1258]: 10/20/2026
+        - separator [ref=e1259]
+        - generic [ref=e1260]:
+          - generic [aria-hidden] [ref=e1261]: 
+          - text: Counterparty Name
+        - generic [ref=e1262]: 3RDPT 2
+        - separator [ref=e1263]
+        - generic [ref=e1264]:
+          - generic [aria-hidden] [ref=e1265]: 
+          - text: Counterparty Email
+        - generic [ref=e1266]: "-"
+        - separator [ref=e1267]
+        - generic [ref=e1268]:
+          - generic [aria-hidden] [ref=e1269]: 
+          - text: Bank
+        - generic [ref=e1270]: CTBC
+        - separator [ref=e1271]
+        - generic [ref=e1272]:
+          - generic [ref=e1273]: Reason
+          - generic [ref=e1274]: Connection issue occurred while processing the transaction
+      - generic [ref=e1275]:
+        - generic [ref=e1276]: Fund Transfer
+        - generic [ref=e1278]:
+          - generic [ref=e1281]:
+            - generic [ref=e1282]: Transaction Type
+            - generic [ref=e1283]: THIRD PARTY BANK ACCOUNT FUND TRANSFER
+          - generic [ref=e1284]:
+            - generic [ref=e1285]: Purpose of Transfer
+            - generic [ref=e1286]: Bill Payment
+          - generic [ref=e1287]:
+            - generic [ref=e1288]: Remarks
+            - generic [ref=e1289]: Test
+          - generic [ref=e1290]:
+            - button " Back" [ref=e1292] [cursor=pointer]:
+              - generic [ref=e1293]: 
+              - text: Back
+            - button " Status" [ref=e1295] [cursor=pointer]:
+              - generic [ref=e1296]: 
+              - text: Status
+    - contentinfo [ref=e387]:
+      - text: Copyright @ 2024 Hitachi Digital Payments.
+      - generic [ref=e388]: version :9.29.22

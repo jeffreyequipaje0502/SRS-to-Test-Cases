@@ -1,0 +1,51 @@
+- generic [ref=e75]:
+  - navigation [ref=e77]
+  - generic [ref=e81]:
+    - generic [ref=e83]:
+      - button "" [ref=e84] [cursor=pointer]
+      - generic [ref=e86]: Type TOTP
+    - generic [ref=e88]:
+      - paragraph [ref=e91]: Please type in the code displayed on your authenticator app from your device.
+      - generic [ref=e94]:
+        - textbox [active] [ref=e95]
+        - textbox [ref=e96]
+        - textbox [ref=e97]
+        - textbox [ref=e98]
+        - textbox [ref=e99]
+        - textbox [ref=e100]
+      - generic [ref=e101]:
+        - button "Cancel" [ref=e103] [cursor=pointer]
+        - button "Proceed" [disabled] [ref=e105]
+  - contentinfo [ref=e107]:
+    - generic [ref=e108]:
+      - generic [ref=e109]:
+        - generic [ref=e111]:
+          - link "CTBC Bank Home" [ref=e112] [cursor=pointer]:
+            - /url: https://www.ctbcbank.com.ph/PersonalBanking/En_PersonalBanking.html
+          - text: "|"
+          - link "Terms and Conditions" [ref=e113] [cursor=pointer]:
+            - /url: https://www.ctbcbank.com.ph/Corporate%20NetBanking%20Terms%20and%20Conditions.pdf
+          - text: "|"
+          - link "Privacy Policy" [ref=e114] [cursor=pointer]:
+            - /url: https://www.ctbcbank.com.ph/Structure/En_PrivacyStatement.html
+          - text: "|"
+          - link "Security Statement" [ref=e115] [cursor=pointer]:
+            - /url: https://www.ctbcbank.com.ph/Structure/En_SecurityStatement.html
+          - link "Rates" [ref=e116] [cursor=pointer]:
+            - /url: https://www.ctbcbank.com.ph/php/rates.php
+          - text: "|"
+          - link "FAQs" [ref=e117] [cursor=pointer]:
+            - /url: https://www.ctbcbank.com.ph/Corporate%20NetBanking%20FAQs.pdf
+          - text: "|"
+          - link "Locations" [ref=e118] [cursor=pointer]:
+            - /url: https://www.ctbcbank.com.ph/Locations/En_Branches.html
+          - text: "|"
+          - link "Contact Us" [ref=e119] [cursor=pointer]:
+            - /url: https://www.ctbcbank.com.ph/Structure/En_ContactUs.html
+        - generic [ref=e122]:
+          - paragraph [ref=e123]: "CTBC Bank (Philippines) Corp. is regulated by the Bangko Sentral ng Pilipinas (BSP). BSP Financial Consumer Protection Dept: (02) 8708-7087 * consumeraffairs@bsp.gov.ph * https://www.bsp.gov.ph"
+          - paragraph [ref=e124]: Deposits are insured by PDIC up to ₱1 Million per depositor.
+      - generic [ref=e127]:
+        - img "DPO/DPS Badge" [ref=e129] [cursor=pointer]
+        - img "BancNet Logo" [ref=e131] [cursor=pointer]
+        - img "PDIC Logo" [ref=e133] [cursor=pointer]

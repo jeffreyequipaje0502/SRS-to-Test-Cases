@@ -6,6 +6,15 @@ description: Activated when the user asks to generate test cases, create test sc
 
 # Skill: SRS to Test Cases Generator
 
+## CIB 2.0 Application UI Reference
+
+This skill automatically loads the verified CIB 2.0 UI reference captured from the live QA environment.
+Use the labels, navigation paths, field names, and button names from this reference in ALL test case steps.
+
+#[[file:../steering/cib-app-ui-reference.md]]
+
+---
+
 ## Purpose
 You are a senior QA Automation Engineer. When this skill is activated, your job is to:
 1. Read and deeply analyze a Software Requirements Specification (SRS) document (PDF) provided by the user
@@ -105,7 +114,8 @@ Generate test cases across these categories for every feature/flow found.
 - All mandatory fields filled correctly
 - Successful completion of the main user journey
 - **Each distinct status value must have its own test case** (do not combine statuses into one test)
-- **Each distinct transaction type must have at least one test case**
+- **Each distinct transaction type must have at least one test case** — and each transaction type that also varies by currency (PHP vs USD) must have separate test cases for each currency
+- **Download / action button availability must be tested per status** — if a button (e.g., Download Fund Transfer Advice) should be available regardless of status, write separate tests for each status value to confirm the button is present and enabled
 
 ### 2. Negative / Error Handling Tests
 - Invalid input data (wrong format, out-of-range values)
@@ -220,11 +230,98 @@ When an SRS covers multiple functional requirements or features, each test case 
 - `P2M [Mobile: Android] [Negative] Verify that the application displays an error prompt when a user scans an invalid QR code`
 
 ### Step Writing Guidelines
+
+#### General Rules
 - **Step Action**: Write in imperative form ("Enter", "Tap", "Navigate to", "Select", "Verify")
 - **Step Expected**: Write from the user's perspective ("User sees", "System displays", "Transaction is", "Error message appears")
 - Keep steps atomic — one action per step
-- Include a prerequisite/setup step (Step 1) when needed (e.g., "Login with valid credentials")
+- **Step 1 is ALWAYS the Prerequisite step** (see "Prerequisite / Test Data Step" section below). Step 2 is always the login step. Never combine login and prerequisites into one step.
 - Include a verification/assertion step as the final step
+- Steps must be detailed enough that a tester with **zero prior knowledge** of the feature can execute them without asking questions
+
+#### Specificity Standard — NO VAGUE EXPECTED RESULTS (CRITICAL)
+This is the most important quality rule. **Never write a vague expected result.** Every expected result must state *exactly* what the tester should see, read, or verify.
+
+**❌ WRONG — too vague:**
+> "System displays the transaction details correctly."
+> "The Fund Transfer Advice shows the correct information."
+> "User sees the transaction summary."
+
+**✅ CORRECT — field-level specificity:**
+> "System displays the Fund Transfer Advice page with the following details:
+> - Reference Number: [the reference number of the transaction, e.g., 001242869]
+> - UETR: [the UETR of the transaction, e.g., de2da6c9-18be-4848-b053-867ed90a316a]
+> - Sender Name: [the sender name on the account, e.g., ABC Corporation]
+> - Transaction Type: [as defined in the transaction, e.g., Local Remittance Fund Transfer]
+> - Payment Channel: [e.g., PESONET]
+> - Transaction Date: [the date the transaction was initiated, e.g., June 5, 2026]
+> - Processing Date: [the date the bank processed the transaction, e.g., June 8, 2026]
+> - Counterparty Name: [e.g., XYZ Corporation]
+> - Counterparty Account Number: ********1378 (only the last 4 digits are visible; all preceding digits are masked with asterisks)
+> - Bank Name: [e.g., BPI]
+> - Transaction Amount: PHP12,345.99 (formatted with currency code and 2 decimal places)
+> - Purpose of Transfer: [e.g., Payment to Supplier]
+> - Payment Instruction: [e.g., Payment to Invoice 1234]
+> - Status: Failed
+> - Reason: RR-04-Rejected"
+
+#### Rules for specific expected results:
+1. **Display screens / detail pages**: Always enumerate every field label and its expected value or format. Do not say "all fields are correct."
+2. **Masked data**: Explicitly describe the masking pattern (e.g., "only the last 4 digits are displayed, all preceding characters are replaced with asterisks `*`").
+3. **Currency / numeric values**: State the exact format (e.g., "PHP12,345.99" — currency code prefix, comma thousands separator, 2 decimal places).
+4. **Dates**: State the expected format (e.g., "June 5, 2026" — full month name, day, 4-digit year).
+5. **Status values**: Spell out the exact status label as it appears in the UI (e.g., "Status: Failed", not just "transaction is failed").
+6. **Error messages**: Quote the exact error message text as stated in the SRS. Do not paraphrase.
+7. **Counts / limits**: State the exact number (e.g., "exactly 10 records are shown per page", not "records are paginated correctly").
+8. **Buttons / links / controls**: Name the exact button label or control (e.g., "a 'Download PDF' button is visible and enabled", not "download option is available").
+9. **Navigation**: State the exact page name or URL pattern the user lands on (e.g., "User is redirected to the Transaction History page", not "user is taken to the next page").
+10. **Absence of elements**: When something should NOT appear, state it explicitly (e.g., "The 'Edit' button is not visible on this page.").
+
+#### Laymanized but Complete
+Write steps as if explaining to a smart colleague who has never used the system before. Avoid internal jargon unless it is a UI label:
+- Say "Click on the 'Fund Transfer' menu item in the left navigation bar" — not "navigate to FT module"
+- Say "Enter '12345.00' in the Amount field" — not "input a valid amount"
+- Say "The page title reads 'Transaction History'" — not "the correct page is displayed"
+- Use "you" or imperative form for actions, and "System" or "Page" for expected results
+
+#### Prerequisite / Test Data Step (MANDATORY — ALWAYS Step 1)
+
+**Every single test case MUST begin with a dedicated Step 1 that is explicitly labeled as the Prerequisite.**
+
+This step is NEVER the login step. The Prerequisite step is ALWAYS Step 1. The login step is ALWAYS Step 2.
+
+**Step 1 action format:**
+> "Prerequisite: [describe what must exist or be deployed]. [List exact test data with specific values.]"
+
+**Step 1 expected format:**
+> "[One-line confirmation that the prerequisite is met, e.g., 'A SUCCESS piecemeal transaction is available.' or 'The SWIFT Charge Option feature is deployed.']"
+
+**The Prerequisite step MUST describe:**
+- **Feature deployment gate** — "The [feature name] feature must be deployed in the target environment." (required for every test case covering a new or enhanced feature)
+- **The exact user role / account** needed (e.g., "A corporate user with Counterparty Maintenance function privilege (Maker role)")
+- **Exact test data with realistic, specific values** — Reference Numbers (e.g., 001242869), Counterparty Names (e.g., 'ABC Global Corp'), Amounts (e.g., PHP12,345.99), Dates (e.g., June 5, 2026), UETRs (e.g., de2da6c9-18be-4848-8053-867ed90a316a), Account number endings (e.g., ending in 1378), Bank names (e.g., BPI)
+- **The exact status or state** the transaction or record must be in (e.g., "A Piecemeal fund transfer transaction with 'Failed' status exists")
+- **Record counts** for boundary tests (e.g., "A Bulk Fund Transfer batch containing exactly 50 records exists")
+
+**Rules:**
+- Do NOT fold the prerequisite into the login step or any other action step
+- Do NOT write vague prerequisites like "Ensure conditions are met" or "Test data is available" — be specific about what those conditions are
+- Do NOT skip the Prerequisite step even for simple tests
+- The Prerequisite step action ALWAYS starts with the word **"Prerequisite:"**
+
+**Example — correct:**
+```
+Step 1 Action:   Prerequisite: Ensure a Piecemeal fund transfer transaction with 'Success' status exists. Details: Ref No: 001242869, Sender: ABC Corporation, Counterparty: XYZ Corporation, Account ending 1378, Bank: BPI, Amount: PHP12,345.99, Channel: PESONET, Txn Date: June 5, 2026, Processing Date: June 8, 2026, UETR: de2da6c9-18be-4848-8053-867ed90a316a. The Fund Transfer Advice download feature must be deployed.
+Step 1 Expected: The prerequisite 'Success' transaction exists and the feature is deployed.
+Step 2 Action:   Log in to the CIB 2.0 portal using valid credentials of a corporate user with Transaction History function privilege.
+Step 2 Expected: User is logged in and lands on the CIB 2.0 home dashboard.
+```
+
+**Example — wrong (do NOT do this):**
+```
+Step 1 Action:   Log in with valid credentials and ensure a transaction exists.   ← mixes login + prerequisite
+Step 1 Expected: User is logged in.
+```
 
 ---
 
@@ -232,7 +329,7 @@ When an SRS covers multiple functional requirements or features, each test case 
 
 A reusable Excel generator already exists at `scripts/generate_testcases.py`.
 **Do NOT recreate it.** It contains the `generate_test_cases_excel()` function with all formatting, headers, and Azure DevOps structure already handled.
-A working example data script exists at `output/PHL-CTB-CIB-08-IB_SRS_v1.3_data.py` — use it as a reference for the expected pattern.
+A working example data script exists at `output/PHL-CTB-CIB-08-IB_SRS_v1.3_data.py` — use it as a reference for the expected pattern. This example demonstrates the correct prerequisite-first step structure, granular per-status tests, and all quality standards required.
 
 Your only job is to create a small **data script** that imports and calls it.
 
@@ -328,8 +425,25 @@ List anything from the SRS that could not be tested due to ambiguity, missing in
 - Never fabricate requirements — only generate test cases for what is explicitly stated or clearly implied in the SRS
 - When a requirement is ambiguous, generate the most reasonable interpretation AND add a comment/note in the gap section
 - **Every distinct status value listed in the SRS must have its own dedicated test case** — never combine multiple statuses into one test
-- **Every distinct transaction type listed in the SRS must have at least one test case**
+- **Every distinct transaction type listed in the SRS must have at least one test case** — if a type also has currency variants (PHP vs USD), each currency gets its own test case
+- **Download / action button availability must be tested per each distinct status** — if a button should be accessible regardless of status, write one test per status to confirm
+- **iCare / Service Request manual update scenarios that affect both batch and record level must be split into two separate test cases** — one for batch level, one for record level
+- **Backward compatibility scenarios (e.g., existing records getting a new default value after an enhancement) must have dedicated test cases** — both for the default value itself and for confirming the record can still be used in downstream flows
+- **Each selectable option in a multi-option field (e.g., OUR / BEN / SHA) must have its own test case for individual selection**
+- **Negative privilege tests must be written for every module** — one test per module for a user without the required function privilege
 - Aim for **thorough coverage** — a complete SRS should produce at minimum 30–80 test cases depending on complexity; do not stop early
-- Steps should be detailed enough for a manual tester with no context to execute them
+- Steps should be detailed enough for a manual tester with **zero prior context** to execute them
 - The output Excel file must be importable into Azure DevOps without modification
 - **Do not consider the task complete until the Coverage Verification checklist in Step 4 is fully satisfied**
+
+### Specificity Non-Negotiables (Senior QA Standard)
+These rules are absolute. Violating any of them means the test case is not production-ready:
+
+1. **No vague expected results.** "System displays the details correctly" is never acceptable. Every display validation must enumerate the fields and their expected values or formats.
+2. **Field-level validation on detail/summary screens.** When a test case verifies a summary, advice, or detail page, the expected result must list every field shown on that screen with its label, expected value (or format if value is dynamic), and any display rules (e.g., masking, currency prefix, date format).
+3. **Masked fields must describe the masking pattern explicitly.** State how many characters are masked, which characters are visible, and what the mask character is (e.g., "Counterparty Account Number displays as `********1378` — only the last 4 digits are visible; all preceding digits are replaced with `*`").
+4. **Error messages must be quoted verbatim** from the SRS. Never paraphrase error text.
+5. **Exact button/link labels must be named.** "A button is available" is not acceptable. Name the exact label: "A 'Submit' button is visible and enabled."
+6. **Exact page/screen names must be stated.** "User is taken to the next screen" is not acceptable. Name the screen: "User is navigated to the 'Fund Transfer Advice' page."
+7. **Test data must be realistic and representative.** Use plausible sample values in prerequisites and steps (e.g., specific reference numbers, realistic amounts, real bank names) so the tester understands the shape of the data they are working with.
+8. **Every test case must stand alone.** A tester picking up any single test case should be able to execute it without reading other test cases — all setup, navigation, and data requirements must be self-contained in that test case's steps.

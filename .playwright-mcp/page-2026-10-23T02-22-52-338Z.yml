@@ -1,0 +1,182 @@
+- generic [ref=e136]:
+  - navigation [ref=e138]:
+    - generic [ref=e139]:
+      - link:
+        - /url: "#"
+    - generic [ref=e140]:
+      - list [ref=e141]:
+        - listitem: 
+        - listitem [ref=e142]:
+          - link "" [ref=e143] [cursor=pointer]:
+            - /url: javascript:void(0)
+      - img "homepage" [ref=e146]
+      - list [ref=e147]:
+        - listitem [ref=e148]:
+          - link [ref=e149] [cursor=pointer]:
+            - /url: "#"
+            - img "user" [ref=e150]
+        - listitem [ref=e151]:
+          - link [ref=e152] [cursor=pointer]:
+            - /url: "#"
+            - img "user" [ref=e153]
+          - text:         
+        - listitem [ref=e156]:
+          - link [ref=e157] [cursor=pointer]:
+            - /url: "#"
+            - img "user" [ref=e158]
+          - text:  
+  - navigation [ref=e162]:
+    - list [ref=e163]:
+      - listitem [ref=e164] [cursor=pointer]
+      - listitem [ref=e165] [cursor=pointer]:
+        - generic [ref=e166]: Dashboard
+      - listitem [ref=e168] [cursor=pointer]:
+        - generic [ref=e169]: Security Settings
+      - listitem [ref=e171] [cursor=pointer]:
+        - generic [ref=e172]: User Maintenance
+      - listitem [ref=e174] [cursor=pointer]:
+        - generic [ref=e175]: Auth Role
+      - listitem [ref=e177] [cursor=pointer]:
+        - generic [ref=e178]: Accounts
+      - listitem [ref=e180] [cursor=pointer]:
+        - generic [ref=e181]: Counterparty Maintenance
+      - listitem [ref=e183] [cursor=pointer]:
+        - generic [ref=e184]: Biller Maintenance
+      - listitem [active] [ref=e186] [cursor=pointer]:
+        - generic [ref=e187]: Fund Transfer
+        - list [ref=e811]:
+          - listitem [ref=e812]:
+            - generic [ref=e813]: New Fund Transfer
+          - listitem [ref=e814]:
+            - generic [ref=e815]: Bulk Fund Transfer
+          - listitem [ref=e816]:
+            - generic [ref=e817]: Approve/Reject Transfer
+          - listitem [ref=e818]:
+            - generic [ref=e819]: Verify/Reject Transfer
+          - listitem [ref=e820]:
+            - generic [ref=e821]: Ongoing Fund Transfers
+          - listitem [ref=e822]:
+            - generic [ref=e823]: Scheduled Fund Transfer
+          - listitem [ref=e824]:
+            - generic [ref=e825]: Transaction History
+      - listitem [ref=e189] [cursor=pointer]:
+        - generic [ref=e190]: Bills Payment
+      - listitem [ref=e192] [cursor=pointer]:
+        - generic [ref=e193]: PDC Warehousing
+      - listitem [ref=e195] [cursor=pointer]:
+        - generic [ref=e196]: Reports
+      - listitem [ref=e198] [cursor=pointer]:
+        - generic [ref=e199]: Mail Box
+      - listitem [ref=e201] [cursor=pointer]:
+        - generic [ref=e202]: Download Templates
+      - listitem [ref=e204] [cursor=pointer]:
+        - generic [ref=e205]: Service Request
+  - generic [ref=e208]:
+    - generic [ref=e210]:
+      - heading "Ongoing Fund Transfer" [level=5] [ref=e826]
+      - list [ref=e214]:
+        - listitem [ref=e215] [cursor=pointer]:
+          - link "Home" [ref=e216]:
+            - /url: "#/main/dashboard"
+        - listitem [ref=e217] [cursor=pointer]:
+          - generic [ref=e218]: 
+          - text: Fund Transfer
+        - listitem [ref=e659] [cursor=pointer]:
+          - generic [ref=e660]: 
+          - text: Main
+    - generic [ref=e827]:
+      - generic [ref=e831]:
+        - generic [ref=e834]:
+          - heading "Search" [level=5] [ref=e837]
+          - paragraph [ref=e838]: Provide the required filters
+        - generic [ref=e840]:
+          - generic [ref=e842]:
+            - generic [ref=e843]:
+              - generic [ref=e844]: From Account
+              - listbox [ref=e848]:
+                - generic [ref=e849]:
+                  - generic [ref=e850]:
+                    - generic [ref=e851]: Select
+                    - combobox [ref=e853]
+                  - generic [ref=e854] [cursor=pointer]
+            - generic [ref=e855]:
+              - generic [ref=e856]: To Account No
+              - textbox "Enter To Account No" [ref=e860]
+            - generic [ref=e861]:
+              - generic [ref=e862]: Transaction Type
+              - listbox [ref=e866]:
+                - generic [ref=e867]:
+                  - generic [ref=e868]:
+                    - generic [ref=e869]: Select
+                    - combobox [ref=e871]
+                  - generic [ref=e872] [cursor=pointer]
+            - generic [ref=e873]:
+              - generic [ref=e874]: Start Date
+              - generic [ref=e876]:
+                - textbox [ref=e878]:
+                  - /placeholder: ENTER_START_DATE
+                - generic: MM/DD/YYYY
+            - generic [ref=e879]:
+              - generic [ref=e880]: End Date
+              - generic [ref=e882]:
+                - textbox [ref=e884]:
+                  - /placeholder: ENTER_END_DATE
+                - generic: MM/DD/YYYY
+          - button " Search" [ref=e888] [cursor=pointer]:
+            - generic [ref=e889]: 
+            - text: Search
+      - generic [ref=e893]:
+        - generic [ref=e895]:
+          - heading "Ongoing Transactions" [level=4] [ref=e896]
+          - paragraph [ref=e897]: "Note: The transactions displayed here show whether the transactions are still pending in the Auth process defined. Approved/Reject Transactions are shown in the Transaction History Page."
+        - generic [ref=e898]:
+          - table [ref=e901]:
+            - rowgroup [ref=e902]:
+              - row [ref=e903]:
+                - columnheader "Ref ID" [ref=e904]
+                - columnheader "Transaction Date" [ref=e905]
+                - columnheader "Counterparty Name" [ref=e906]
+                - columnheader "Transaction Type" [ref=e907]
+                - columnheader "Debiting Account" [ref=e908]
+                - columnheader "Currency" [ref=e909]
+                - columnheader "Transaction Amount" [ref=e910]
+                - columnheader "Status" [ref=e911]
+                - columnheader "Action" [ref=e912]
+            - rowgroup [ref=e913]:
+              - row [ref=e914]:
+                - cell " 00117129" [ref=e915]:
+                  - generic [ref=e916]: 
+                  - text: "00117129"
+                - cell "10/21/2026" [ref=e917]
+                - cell "3RDPT 1" [ref=e918]
+                - cell "Third Party Account" [ref=e919]
+                - cell "001720030090" [ref=e920]
+                - cell "PHP" [ref=e921]
+                - cell "2.00" [ref=e922]
+                - cell "Pending Approval" [ref=e923]
+                - cell [ref=e925]:
+                  - button " View" [ref=e926] [cursor=pointer]:
+                    - generic [ref=e927]: 
+                    - text: View
+          - navigation "Page navigation example" [ref=e930]:
+            - generic [ref=e931]:
+              - list [ref=e932]:
+                - listitem [ref=e933]:
+                  - generic: 
+                - listitem [ref=e934]:
+                  - generic [ref=e935]: "1"
+                - listitem [ref=e936]:
+                  - generic: 
+              - generic [ref=e937]:
+                - generic [ref=e938]: Rows per page
+                - listbox [ref=e939]:
+                  - generic [ref=e940]:
+                    - generic [ref=e941]:
+                      - generic [ref=e942]: "10"
+                      - generic [ref=e943]:
+                        - combobox
+                    - generic [ref=e944] [cursor=pointer]
+              - generic [ref=e945]: Page 1 of 1
+    - contentinfo [ref=e387]:
+      - text: Copyright @ 2024 Hitachi Digital Payments.
+      - generic [ref=e388]: version :9.29.22

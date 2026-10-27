@@ -1,0 +1,268 @@
+- generic [ref=e136]:
+  - navigation [ref=e138]:
+    - generic [ref=e139]:
+      - link:
+        - /url: "#"
+    - generic [ref=e140]:
+      - list [ref=e141]:
+        - listitem: 
+        - listitem [ref=e142]:
+          - link "" [ref=e143] [cursor=pointer]:
+            - /url: javascript:void(0)
+      - img "homepage" [ref=e146]
+      - list [ref=e147]:
+        - listitem [ref=e148]:
+          - link [ref=e149] [cursor=pointer]:
+            - /url: "#"
+            - img "user" [ref=e150]
+        - listitem [ref=e151]:
+          - link [ref=e152] [cursor=pointer]:
+            - /url: "#"
+            - img "user" [ref=e153]
+          - text:         
+        - listitem [ref=e156]:
+          - link [ref=e157] [cursor=pointer]:
+            - /url: "#"
+            - img "user" [ref=e158]
+          - text:  
+  - navigation [ref=e162]:
+    - list [ref=e163]:
+      - listitem [ref=e164] [cursor=pointer]
+      - listitem [ref=e165] [cursor=pointer]:
+        - generic [ref=e166]: Dashboard
+      - listitem [ref=e168] [cursor=pointer]:
+        - generic [ref=e169]: Security Settings
+      - listitem [ref=e171] [cursor=pointer]:
+        - generic [ref=e172]: User Maintenance
+      - listitem [ref=e174] [cursor=pointer]:
+        - generic [ref=e175]: Auth Role
+      - listitem [ref=e177] [cursor=pointer]:
+        - generic [ref=e178]: Accounts
+      - listitem [active] [ref=e180] [cursor=pointer]:
+        - generic [ref=e181]: Counterparty Maintenance
+        - list [ref=e403]:
+          - listitem [ref=e404]:
+            - generic [ref=e405]: Add Counterparty
+          - listitem [ref=e406]:
+            - generic [ref=e407]: Verify/Reject Counterparty
+          - listitem [ref=e408]:
+            - generic [ref=e409]: Approve Counterparty
+      - listitem [ref=e183] [cursor=pointer]:
+        - generic [ref=e184]: Biller Maintenance
+      - listitem [ref=e186] [cursor=pointer]:
+        - generic [ref=e187]: Fund Transfer
+      - listitem [ref=e189] [cursor=pointer]:
+        - generic [ref=e190]: Bills Payment
+      - listitem [ref=e192] [cursor=pointer]:
+        - generic [ref=e193]: PDC Warehousing
+      - listitem [ref=e195] [cursor=pointer]:
+        - generic [ref=e196]: Reports
+      - listitem [ref=e198] [cursor=pointer]:
+        - generic [ref=e199]: Mail Box
+      - listitem [ref=e201] [cursor=pointer]:
+        - generic [ref=e202]: Download Templates
+      - listitem [ref=e204] [cursor=pointer]:
+        - generic [ref=e205]: Service Request
+  - generic [ref=e208]:
+    - generic [ref=e210]:
+      - heading "Counterparty Maintenance" [level=5] [ref=e410]
+      - list [ref=e214]:
+        - listitem [ref=e215] [cursor=pointer]:
+          - link "Home" [ref=e216]:
+            - /url: "#/main/dashboard"
+        - listitem [ref=e217] [cursor=pointer]:
+          - generic [ref=e218]: 
+          - text: Counterparty Maintenance
+        - listitem
+    - generic [ref=e411]:
+      - heading "Add New Counterparty" [level=5] [ref=e417] [cursor=pointer]
+      - generic [ref=e423]:
+        - generic [ref=e424]:
+          - heading "Search" [level=5] [ref=e425]
+          - paragraph [ref=e426]: Provide the required filters
+        - generic [ref=e428]:
+          - generic [ref=e429]:
+            - generic [ref=e430]:
+              - generic [ref=e431]:
+                - generic [ref=e432]: Counterparty Name
+                - textbox "Counterparty Name" [ref=e436]
+              - generic [ref=e437]:
+                - generic [ref=e438]: Fund Transfer Type
+                - listbox [ref=e442]:
+                  - generic [ref=e443]:
+                    - generic [ref=e444]:
+                      - generic [ref=e445]: Select One
+                      - combobox [ref=e447]
+                    - generic [ref=e448] [cursor=pointer]
+              - generic [ref=e449]:
+                - generic [ref=e450]: Payment Channel
+                - listbox [ref=e454]:
+                  - generic [ref=e455]:
+                    - generic [ref=e456]:
+                      - generic [ref=e457]: Select One
+                      - combobox [ref=e459]
+                    - generic [ref=e460] [cursor=pointer]
+              - generic [ref=e461]:
+                - generic [ref=e462]: Bank
+                - listbox [ref=e466]:
+                  - generic [ref=e467]:
+                    - generic [ref=e468]:
+                      - generic [ref=e469]: Select One
+                      - combobox [ref=e471]
+                    - generic [ref=e472] [cursor=pointer]
+              - generic [ref=e473]:
+                - generic [ref=e474]: Account Number
+                - textbox "Account Number" [ref=e478]
+              - generic [ref=e479]:
+                - generic [ref=e480]: Routing Number/Swift Code
+                - textbox "Routing Number/Swift Code" [ref=e484]:
+                  - /placeholder: Routing  Number/Swift Code
+            - generic [ref=e486]:
+              - generic [ref=e487]: Status
+              - generic [ref=e489]: ACTIVE
+              - generic [ref=e491]: MODIFIED
+              - generic [ref=e493]: REJECTED
+              - generic [ref=e495]: PENDING VERIFICATION
+              - generic [ref=e497]: PENDING APPROVAL
+          - button " Search" [ref=e503] [cursor=pointer]:
+            - generic [ref=e504]: 
+            - text: Search
+      - generic [ref=e508]:
+        - heading "Counterparty List" [level=5] [ref=e510]
+        - generic [ref=e511]:
+          - table [ref=e514]:
+            - rowgroup [ref=e515]:
+              - row [ref=e516]:
+                - columnheader "ID" [ref=e517]
+                - columnheader "Counterparty Name" [ref=e518]
+                - columnheader "Transaction Type" [ref=e519]
+                - columnheader "Payment Channel" [ref=e520]
+                - columnheader "Status" [ref=e521]
+                - columnheader "Action" [ref=e522]
+            - rowgroup [ref=e523]:
+              - row [ref=e524]:
+                - cell "9405" [ref=e525]
+                - cell "3RDPT 1" [ref=e526]
+                - cell "Third Party Account" [ref=e527]
+                - cell "WITHIN BANK" [ref=e529]
+                - cell "ACTIVE" [ref=e530]
+                - cell [ref=e532]:
+                  - button " View" [ref=e533] [cursor=pointer]:
+                    - generic [ref=e534]: 
+                    - text: View
+              - row [ref=e535]:
+                - cell "9406" [ref=e536]
+                - cell "3RDPT 2" [ref=e537]
+                - cell "Third Party Account" [ref=e538]
+                - cell "WITHIN BANK" [ref=e540]
+                - cell "ACTIVE" [ref=e541]
+                - cell [ref=e543]:
+                  - button " View" [ref=e544] [cursor=pointer]:
+                    - generic [ref=e545]: 
+                    - text: View
+              - row [ref=e546]:
+                - cell "9394" [ref=e547]
+                - cell "ACCOUNT PESONET" [ref=e548]
+                - cell "Local Remittance" [ref=e549]
+                - cell "PESONET" [ref=e551]
+                - cell "ACTIVE" [ref=e552]
+                - cell [ref=e554]:
+                  - button " View" [ref=e555] [cursor=pointer]:
+                    - generic [ref=e556]: 
+                    - text: View
+              - row [ref=e557]:
+                - cell "9399" [ref=e558]
+                - cell "ACCOUNT PESONET 2" [ref=e559]
+                - cell "Local Remittance" [ref=e560]
+                - cell "PESONET" [ref=e562]
+                - cell "ACTIVE" [ref=e563]
+                - cell [ref=e565]:
+                  - button " View" [ref=e566] [cursor=pointer]:
+                    - generic [ref=e567]: 
+                    - text: View
+              - row [ref=e568]:
+                - cell "9409" [ref=e569]
+                - cell "ACCOUNT PESONET 3" [ref=e570]
+                - cell "Local Remittance" [ref=e571]
+                - cell "PESONET" [ref=e573]
+                - cell "ACTIVE" [ref=e574]
+                - cell [ref=e576]:
+                  - button " View" [ref=e577] [cursor=pointer]:
+                    - generic [ref=e578]: 
+                    - text: View
+              - row [ref=e579]:
+                - cell "9396" [ref=e580]
+                - cell "ACCOUNT RTGS" [ref=e581]
+                - cell "Local Remittance" [ref=e582]
+                - cell "RTGS" [ref=e584]
+                - cell "ACTIVE" [ref=e585]
+                - cell [ref=e587]:
+                  - button " View" [ref=e588] [cursor=pointer]:
+                    - generic [ref=e589]: 
+                    - text: View
+              - row [ref=e590]:
+                - cell "9402" [ref=e591]
+                - cell "ACCOUNT RTGS 2" [ref=e592]
+                - cell "Local Remittance" [ref=e593]
+                - cell "RTGS" [ref=e595]
+                - cell "ACTIVE" [ref=e596]
+                - cell [ref=e598]:
+                  - button " View" [ref=e599] [cursor=pointer]:
+                    - generic [ref=e600]: 
+                    - text: View
+              - row [ref=e601]:
+                - cell "9711" [ref=e602]
+                - cell "APPRVPESONET" [ref=e603]
+                - cell "Local Remittance" [ref=e604]
+                - cell "PESONET" [ref=e606]
+                - cell "PENDING APPROVAL" [ref=e607]
+                - cell [ref=e609]:
+                  - button " View" [ref=e610] [cursor=pointer]:
+                    - generic [ref=e611]: 
+                    - text: View
+              - row [ref=e612]:
+                - cell "9403" [ref=e613]
+                - cell "BANCNET 01" [ref=e614]
+                - cell "Local Remittance" [ref=e615]
+                - cell "BANCNET" [ref=e617]
+                - cell "ACTIVE" [ref=e618]
+                - cell [ref=e620]:
+                  - button " View" [ref=e621] [cursor=pointer]:
+                    - generic [ref=e622]: 
+                    - text: View
+              - row [ref=e623]:
+                - cell "9397" [ref=e624]
+                - cell "BANCNET 29" [ref=e625]
+                - cell "Local Remittance" [ref=e626]
+                - cell "BANCNET" [ref=e628]
+                - cell "ACTIVE" [ref=e629]
+                - cell [ref=e631]:
+                  - button " View" [ref=e632] [cursor=pointer]:
+                    - generic [ref=e633]: 
+                    - text: View
+          - navigation "Page navigation example" [ref=e636]:
+            - generic [ref=e637]:
+              - list [ref=e638]:
+                - listitem [ref=e639]:
+                  - generic: 
+                - listitem [ref=e640]:
+                  - generic [ref=e641]: "1"
+                - listitem [ref=e642]:
+                  - generic [ref=e643] [cursor=pointer]: "2"
+                - listitem [ref=e644]:
+                  - generic [ref=e645] [cursor=pointer]: "3"
+                - listitem [ref=e646]:
+                  - generic [ref=e647] [cursor=pointer]: 
+              - generic [ref=e649]:
+                - generic [ref=e650]: Rows per page
+                - listbox [ref=e651]:
+                  - generic [ref=e652]:
+                    - generic [ref=e653]:
+                      - generic [ref=e654]: "10"
+                      - generic [ref=e655]:
+                        - combobox
+                    - generic [ref=e656] [cursor=pointer]
+              - generic [ref=e657]: Page 1 of 4
+    - contentinfo [ref=e387]:
+      - text: Copyright @ 2024 Hitachi Digital Payments.
+      - generic [ref=e388]: version :9.29.22

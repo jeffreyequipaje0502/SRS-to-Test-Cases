@@ -1,0 +1,540 @@
+[     396ms] [WARNING] Error with Feature-Policy header: Some features are specified in both Feature-Policy and Permissions-Policy header: geolocation, camera, microphone. Values defined in Permissions-Policy header will be used. @ :0
+[     403ms] [ERROR] Loading the script 'https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092' violates the following Content Security Policy directive: "script-src 'self' 'unsafe-inline' 'unsafe-eval'". Note that 'script-src-elem' was not explicitly set, so 'script-src' is used as a fallback. The action has been blocked. @ https://ctbcqa.megalink.com.ph/frontend/#/pages/login:0
+[    1095ms] [LOG] +++++++++++++++++++++++ @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[    1096ms] [LOG] Fri Oct 23 2026 10:25:49 GMT+0800 (Singapore Standard Time) @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[    1096ms] [LOG] Fri Oct 23 2026 10:15:49 GMT+0800 (Singapore Standard Time) @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[    1096ms] [LOG] 9.999983333333333 @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[    1224ms] [LOG] +++++++++++++++++++++++ @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[    1224ms] [LOG] Fri Oct 23 2026 10:25:49 GMT+0800 (Singapore Standard Time) @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[    1224ms] [LOG] Fri Oct 23 2026 10:15:49 GMT+0800 (Singapore Standard Time) @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[    1224ms] [LOG] 9.999983333333333 @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[    1225ms] [LOG] +++++++++++++++++++++++ @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[    1225ms] [LOG] Fri Oct 23 2026 10:25:49 GMT+0800 (Singapore Standard Time) @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[    1226ms] [LOG] Fri Oct 23 2026 10:15:49 GMT+0800 (Singapore Standard Time) @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[    1226ms] [LOG] 10 @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[    1302ms] [ERROR] ERROR TypeError: Cannot read properties of undefined (reading 'length')
+    at e.tickerTapeContent (https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:2:1575486)
+    at d._next (https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:2:1575200)
+    at d.__tryOrUnsub (https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:2:137042)
+    at d.next (https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:2:136263)
+    at u._next (https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:2:135434)
+    at u.next (https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:2:135208)
+    at s._next (https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:2:1514494)
+    at s.next (https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:2:135208)
+    at l.notifyNext (https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:2:71213)
+    at s._next (https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:2:1768886) @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[   50736ms] [LOG] +++++++++++++++++++++++ @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[   50736ms] [LOG] Fri Oct 23 2026 10:26:38 GMT+0800 (Singapore Standard Time) @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[   50736ms] [LOG] Fri Oct 23 2026 10:16:38 GMT+0800 (Singapore Standard Time) @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[   50737ms] [LOG] 9.999983333333333 @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[   51682ms] [LOG] ["VALIDATE_OTP"] @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[   51683ms] [LOG] +++++++++++++++++++++++ @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[   51684ms] [LOG] Fri Oct 23 2026 10:26:39 GMT+0800 (Singapore Standard Time) @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[   51684ms] [LOG] Fri Oct 23 2026 10:16:39 GMT+0800 (Singapore Standard Time) @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[   51685ms] [LOG] 9.999983333333333 @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[   51811ms] [LOG] {userId: jeffqa1, companyId: 000006PH, mobile: 63******8323, dob: Fri Oct 23 10:16:39 PST 2026, email: dum**********@yopmail.com} @ https://ctbcqa.megalink.com.ph/frontend/44-es2015.a6b5091e4703ed8dccc6.js:0
+[   51825ms] [LOG] 000006PH @ https://ctbcqa.megalink.com.ph/frontend/44-es2015.a6b5091e4703ed8dccc6.js:0
+[   51826ms] [LOG] this.otpSessi-----TOTP @ https://ctbcqa.megalink.com.ph/frontend/44-es2015.a6b5091e4703ed8dccc6.js:0
+[   51942ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://ctbcqa.megalink.com.ph/frontend/#/pages/otp:0
+[   51942ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://ctbcqa.megalink.com.ph/frontend/#/pages/otp:0
+[   51942ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://ctbcqa.megalink.com.ph/frontend/#/pages/otp:0
+[   51942ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://ctbcqa.megalink.com.ph/frontend/#/pages/otp:0
+[   51942ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://ctbcqa.megalink.com.ph/frontend/#/pages/otp:0
+[   51942ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://ctbcqa.megalink.com.ph/frontend/#/pages/otp:0
+[  141201ms] [LOG] UANmdzhBywKsKa0RDM1ArA== @ https://ctbcqa.megalink.com.ph/frontend/44-es2015.a6b5091e4703ed8dccc6.js:0
+[  141202ms] [LOG] 291320 @ https://ctbcqa.megalink.com.ph/frontend/44-es2015.a6b5091e4703ed8dccc6.js:0
+[  141203ms] [LOG] +++++++++++++++++++++++ @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  141203ms] [LOG] Fri Oct 23 2026 10:28:09 GMT+0800 (Singapore Standard Time) @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  141203ms] [LOG] Fri Oct 23 2026 10:18:09 GMT+0800 (Singapore Standard Time) @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  141203ms] [LOG] 9.999983333333333 @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  141416ms] [LOG] {status: success, access_token: 22ddd72e-d8d5-3e86-af96-f23470320128, typ: Bearer, token_type: Bearer, sub: login} @ https://ctbcqa.megalink.com.ph/frontend/44-es2015.a6b5091e4703ed8dccc6.js:0
+[  141416ms] [LOG] Login @ https://ctbcqa.megalink.com.ph/frontend/44-es2015.a6b5091e4703ed8dccc6.js:0
+[  141416ms] [LOG] ["TIME_DEPOSIT","REPORT_GENERATE","TRANSACTION_INQUIRY_VIEW","VERIFY_FT_GLOBAL_SWIFT","VERIFY_BULK_BILL_PAYMENTS","BULK_BILL_PAYMENTS","CASH_CARD_RELOAD","DASHBOARD_WIDGET_EDIT","DEFERMENT","VERIFY_FT_INTER_PESONET","APPROVE_PDC_WAREHOUSING","PAYROLL_UPLOAD","BULK_FUND_TRANSFERS","APPROVE_BILL_PAYMENT","VERIFY_FT_THIRD_PARTY","APPROVE_BULK_BENEFICIARY","DELETE_BENEFICIARY","VERIFY_COMPANY_USER","INTER_BANK_FUND_TRANSFER_PESONET","INTER_BANK_FUND_TRANSFER_RTGS","MODIFY_BENEFICIARY","INTER_BANK_FUND_TRANSFER","PDC_WAREHOUSING","APPROVE_BULK_FUND_TRANSFERS","RESET_PASSWORD_COMPANY_USER","VERIFY_BENEFICIARY","ACCOUNT_OVERVIEW_VIEW","DASHBOARD_WIDGET_VIEW","VERIFY_FT_INTER_INSTAPAY","APPROVE_BILL_PAYMENT_DEACTIVATE_SCHEDULE","OVERSEAS_FUND_TRANSFER","CREATE_SECURITY_SETTINGS","VERIFY_PAYROLL_UPLOAD","DELETE_BILLER","BILL_PAYMENT","VERIFY_BULK_FT_GLOBAL","INTER_BANK_FUND_TRANSFER_INSTAPAY","MODIFY_BILLER","VERIFY_FT_OWN","MAIL_BOX","BNK_USR_APP","LOAN_ACCOUNT","RESET_AUTHENTICATOR","VIEW_SECURITY_SETTINGS","MODIFY_SECURITY_SETTINGS","CREATE_BENEFICIARY","VERIFY_BILLER_MAINTENANCE","DEACTIVATE_BILL_PAYMENT_SCHEDULE","APPROVE_FUND_TRANSFER_DEACTIVATE_SCHEDULE","CREATE_BILLER","THIRD_PARTY_FUND_TRANSFERS","APPROVE_BILLER","PDC_TRXN_HISTORY","VERIFY_SECURITY_SETTINGS","VERIFY_FT_INTER_PDDTS","BULK_FUND_TRANSFER_LOCAL","RETAIL_ROLE","VERIFY_BILL_PAYMENT","BULK_BENEFICIARY","SERVICE_REQUEST","OWN_ACCOUNT_FUND_TRANSFERS","BULK_FUND_TRANSFER_GLOBAL","INTER_BANK_FUND_TRANSFER_BANCNET","APPROVE_SECURITY_SETTINGS","VERIFY_PDC_WAREHOUSING","AUTH_APPROVER","MINI_STATEMENT_VIEW","PROOF_LIST","REPORT_DOWNLOAD","VERIFY_SCHEDULE_FUND_TRANSFER","CLEAR_LOCKED_COMPANY_USER","ACCOUNT_STATEMENT_VIEW","SCHEDULE_FUND_TRANSFER","CBK_PBCORP","BILL_PAYMENT_SCHEDULE","DEACTIVATE_FUND_TRANSFER_SCHEDULE","PDC_INQUIRY","VERIFY_FT_INTER_RTGS","ACCOUNT_SUMMARY_VIEW","INTER_BANK_FUND_TRANSFER_PDDTS","ACTIVATE_SECURITY_SETTINGS","ACTIVATE_COMPANY_USER","VERIFY_BULK_FT_LOCAL","APPROVE_BULK_BILL_PAYMENTS","VERIFY_CASH_CARD_RELOAD","PULL_OUT","VERIFY_BILL_PAYMENT_SCHEDULE","SUSPEND_COMPANY_USER","APPROVE_BENEFICIARY","APPROVE_FUND_TRANSFERS","AUTH_CREATOR","CREATE_COMPANY_USER","OVERSEAS_FUND_TRANSFER_SWIFT","VERIFY_FT_INTER_BANCNET"] @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  141417ms] [LOG] +++++++++++++++++++++++ @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  141417ms] [LOG] Fri Oct 23 2026 10:28:09 GMT+0800 (Singapore Standard Time) @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  141418ms] [LOG] Fri Oct 23 2026 10:18:09 GMT+0800 (Singapore Standard Time) @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  141418ms] [LOG] 10 @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  141565ms] [INFO] {responseCode: 00, description: Success, token: Bearer 22ddd72e-d8d5-3e86-af96-f23470320128, refreshToken: Bearer ad7d9923-8881-331d-9c54-434ecbdb1d18, companyId: 000006PH} @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  141767ms] [LOG] *****- /main/dashboard @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  141767ms] [LOG] autisLoggedIn @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  141768ms] [LOG] +++++++++++++++++++++++ @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  141768ms] [LOG] Fri Oct 23 2026 10:28:09 GMT+0800 (Singapore Standard Time) @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  141768ms] [LOG] Fri Oct 23 2026 10:18:09 GMT+0800 (Singapore Standard Time) @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  141768ms] [LOG] 9.999983333333333 @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  141787ms] [LOG] +++++++++++++++++++++++ @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  141787ms] [LOG] Fri Oct 23 2026 10:28:09 GMT+0800 (Singapore Standard Time) @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  141787ms] [LOG] Fri Oct 23 2026 10:18:09 GMT+0800 (Singapore Standard Time) @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  141787ms] [LOG] 9.999983333333333 @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  141789ms] [LOG] Notification List [] @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  141789ms] [LOG] [] @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  141792ms] [LOG] +++++++++++++++++++++++ @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  141792ms] [LOG] Fri Oct 23 2026 10:28:09 GMT+0800 (Singapore Standard Time) @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  141793ms] [LOG] Fri Oct 23 2026 10:18:09 GMT+0800 (Singapore Standard Time) @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  141793ms] [LOG] 10 @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  141796ms] [LOG] +++++++++++++++++++++++ @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  141796ms] [LOG] Fri Oct 23 2026 10:28:09 GMT+0800 (Singapore Standard Time) @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  141796ms] [LOG] Fri Oct 23 2026 10:18:09 GMT+0800 (Singapore Standard Time) @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  141796ms] [LOG] 9.999983333333333 @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  141801ms] [LOG] +++++++++++++++++++++++ @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  141802ms] [LOG] Fri Oct 23 2026 10:28:09 GMT+0800 (Singapore Standard Time) @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  141802ms] [LOG] Fri Oct 23 2026 10:18:09 GMT+0800 (Singapore Standard Time) @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  141802ms] [LOG] 10 @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  141804ms] [LOG] Notification List [] @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  142191ms] [LOG] +++++++++++++++++++++++ @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  142192ms] [LOG] Fri Oct 23 2026 10:28:10 GMT+0800 (Singapore Standard Time) @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  142193ms] [LOG] Fri Oct 23 2026 10:18:10 GMT+0800 (Singapore Standard Time) @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  142193ms] [LOG] 9.999983333333333 @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  142194ms] [LOG] +++++++++++++++++++++++ @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  142194ms] [LOG] Fri Oct 23 2026 10:28:10 GMT+0800 (Singapore Standard Time) @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  142195ms] [LOG] Fri Oct 23 2026 10:18:10 GMT+0800 (Singapore Standard Time) @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  142195ms] [LOG] 9.999983333333333 @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  142197ms] [LOG] +++++++++++++++++++++++ @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  142197ms] [LOG] Fri Oct 23 2026 10:28:10 GMT+0800 (Singapore Standard Time) @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  142198ms] [LOG] Fri Oct 23 2026 10:18:10 GMT+0800 (Singapore Standard Time) @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  142198ms] [LOG] 9.999983333333333 @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  142200ms] [LOG] +++++++++++++++++++++++ @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  142200ms] [LOG] Fri Oct 23 2026 10:28:10 GMT+0800 (Singapore Standard Time) @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  142201ms] [LOG] Fri Oct 23 2026 10:18:10 GMT+0800 (Singapore Standard Time) @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  142201ms] [LOG] 9.999983333333333 @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  142202ms] [LOG] +++++++++++++++++++++++ @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  142202ms] [LOG] Fri Oct 23 2026 10:28:10 GMT+0800 (Singapore Standard Time) @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  142203ms] [LOG] Fri Oct 23 2026 10:18:10 GMT+0800 (Singapore Standard Time) @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  142203ms] [LOG] 10 @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  142204ms] [LOG] +++++++++++++++++++++++ @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  142204ms] [LOG] Fri Oct 23 2026 10:28:10 GMT+0800 (Singapore Standard Time) @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  142204ms] [LOG] Fri Oct 23 2026 10:18:10 GMT+0800 (Singapore Standard Time) @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  142204ms] [LOG] 9.999983333333333 @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  142205ms] [LOG] +++++++++++++++++++++++ @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  142205ms] [LOG] Fri Oct 23 2026 10:28:10 GMT+0800 (Singapore Standard Time) @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  142205ms] [LOG] Fri Oct 23 2026 10:18:10 GMT+0800 (Singapore Standard Time) @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  142206ms] [LOG] 9.999983333333333 @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  142206ms] [LOG] +++++++++++++++++++++++ @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  142206ms] [LOG] Fri Oct 23 2026 10:28:10 GMT+0800 (Singapore Standard Time) @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  142206ms] [LOG] Fri Oct 23 2026 10:18:10 GMT+0800 (Singapore Standard Time) @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  142207ms] [LOG] 10 @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  142207ms] [LOG] +++++++++++++++++++++++ @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  142207ms] [LOG] Fri Oct 23 2026 10:28:10 GMT+0800 (Singapore Standard Time) @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  142207ms] [LOG] Fri Oct 23 2026 10:18:10 GMT+0800 (Singapore Standard Time) @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  142208ms] [LOG] 10 @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  142209ms] [LOG] +++++++++++++++++++++++ @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  142209ms] [LOG] Fri Oct 23 2026 10:28:10 GMT+0800 (Singapore Standard Time) @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  142210ms] [LOG] Fri Oct 23 2026 10:18:10 GMT+0800 (Singapore Standard Time) @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  142210ms] [LOG] 9.999983333333333 @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  142211ms] [LOG] +++++++++++++++++++++++ @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  142211ms] [LOG] Fri Oct 23 2026 10:28:10 GMT+0800 (Singapore Standard Time) @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  142211ms] [LOG] Fri Oct 23 2026 10:18:10 GMT+0800 (Singapore Standard Time) @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  142211ms] [LOG] 10 @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  142212ms] [LOG] +++++++++++++++++++++++ @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  142212ms] [LOG] Fri Oct 23 2026 10:28:10 GMT+0800 (Singapore Standard Time) @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  142212ms] [LOG] Fri Oct 23 2026 10:18:10 GMT+0800 (Singapore Standard Time) @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  142212ms] [LOG] 10 @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  142213ms] [LOG] +++++++++++++++++++++++ @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  142213ms] [LOG] Fri Oct 23 2026 10:28:10 GMT+0800 (Singapore Standard Time) @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  142214ms] [LOG] Fri Oct 23 2026 10:18:10 GMT+0800 (Singapore Standard Time) @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  142214ms] [LOG] 9.999983333333333 @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  142215ms] [LOG] +++++++++++++++++++++++ @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  142216ms] [LOG] Fri Oct 23 2026 10:28:10 GMT+0800 (Singapore Standard Time) @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  142216ms] [LOG] Fri Oct 23 2026 10:18:10 GMT+0800 (Singapore Standard Time) @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  142217ms] [LOG] 9.999966666666667 @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  142217ms] [LOG] +++++++++++++++++++++++ @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  142218ms] [LOG] Fri Oct 23 2026 10:28:10 GMT+0800 (Singapore Standard Time) @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  142218ms] [LOG] Fri Oct 23 2026 10:18:10 GMT+0800 (Singapore Standard Time) @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  142218ms] [LOG] 10 @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  142219ms] [LOG] +++++++++++++++++++++++ @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  142219ms] [LOG] Fri Oct 23 2026 10:28:10 GMT+0800 (Singapore Standard Time) @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  142220ms] [LOG] Fri Oct 23 2026 10:18:10 GMT+0800 (Singapore Standard Time) @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  142220ms] [LOG] 9.999983333333333 @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  142265ms] [ERROR] ERROR TypeError: Cannot read properties of undefined (reading 'length')
+    at e.tickerTapeContent (https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:2:1575486)
+    at d._next (https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:2:1575395)
+    at d.__tryOrUnsub (https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:2:137042)
+    at d.next (https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:2:136263)
+    at u._next (https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:2:135434)
+    at u.next (https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:2:135208)
+    at s._next (https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:2:1514494)
+    at s.next (https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:2:135208)
+    at l.notifyNext (https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:2:71213)
+    at s._next (https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:2:1768886) @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  276166ms] [LOG] *****- /main/maintenance/beneficiary/home @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  276167ms] [LOG] autisLoggedIn @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  276170ms] [LOG] +++++++++++++++++++++++ @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  276171ms] [LOG] Fri Oct 23 2026 10:30:24 GMT+0800 (Singapore Standard Time) @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  276172ms] [LOG] Fri Oct 23 2026 10:20:24 GMT+0800 (Singapore Standard Time) @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  276175ms] [LOG] 9.999966666666667 @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  276200ms] [LOG] +++++++++++++++++++++++ @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  276201ms] [LOG] Fri Oct 23 2026 10:30:24 GMT+0800 (Singapore Standard Time) @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  276201ms] [LOG] Fri Oct 23 2026 10:20:24 GMT+0800 (Singapore Standard Time) @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  276202ms] [LOG] 9.999983333333333 @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  295200ms] [INFO] Selected Country:  {countryDesc: Philippines} @ https://ctbcqa.megalink.com.ph/frontend/40-es2015.4caae91928196cbbfde1.js:0
+[  295201ms] [LOG] +++++++++++++++++++++++ @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  295201ms] [LOG] Fri Oct 23 2026 10:30:43 GMT+0800 (Singapore Standard Time) @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  295202ms] [LOG] Fri Oct 23 2026 10:20:43 GMT+0800 (Singapore Standard Time) @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  295202ms] [LOG] 9.999966666666667 @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  295205ms] [LOG] +++++++++++++++++++++++ @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  295205ms] [LOG] Fri Oct 23 2026 10:30:43 GMT+0800 (Singapore Standard Time) @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  295206ms] [LOG] Fri Oct 23 2026 10:20:43 GMT+0800 (Singapore Standard Time) @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  295207ms] [LOG] 9.999966666666667 @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  295262ms] [WARNING] 
+      It looks like you're using the disabled attribute with a reactive form directive. If you set disabled to true
+      when you set up this control in your component class, the disabled attribute will actually be set in the DOM for
+      you. We recommend using this approach to avoid 'changed after checked' errors.
+       
+      Example: 
+      form = new FormGroup({
+        first: new FormControl({value: 'Nancy', disabled: true}, Validators.required),
+        last: new FormControl('Drew', Validators.required)
+      });
+     @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  351725ms] [INFO] Selected Country:  {countryDesc: Philippines} @ https://ctbcqa.megalink.com.ph/frontend/40-es2015.4caae91928196cbbfde1.js:0
+[  351726ms] [LOG] +++++++++++++++++++++++ @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  351726ms] [LOG] Fri Oct 23 2026 10:31:39 GMT+0800 (Singapore Standard Time) @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  351727ms] [LOG] Fri Oct 23 2026 10:21:39 GMT+0800 (Singapore Standard Time) @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  351728ms] [LOG] 9.999966666666667 @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  351730ms] [LOG] Selected Option: Global Remittance @ https://ctbcqa.megalink.com.ph/frontend/40-es2015.4caae91928196cbbfde1.js:0
+[  351832ms] [LOG] finished @ https://ctbcqa.megalink.com.ph/frontend/44-es2015.a6b5091e4703ed8dccc6.js:0
+[  397888ms] [LOG] {id: SWIFT, name: SWIFT, status: null} @ https://ctbcqa.megalink.com.ph/frontend/40-es2015.4caae91928196cbbfde1.js:0
+[  397889ms] [LOG] +++++++++++++++++++++++ @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  397890ms] [LOG] Fri Oct 23 2026 10:32:25 GMT+0800 (Singapore Standard Time) @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  397890ms] [LOG] Fri Oct 23 2026 10:22:25 GMT+0800 (Singapore Standard Time) @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  397890ms] [LOG] 10 @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  398098ms] [LOG] {metadata: Object, banks: Array(100)} @ https://ctbcqa.megalink.com.ph/frontend/40-es2015.4caae91928196cbbfde1.js:0
+[  418473ms] [LOG] *****- /main/fundtransfer/home @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  418474ms] [LOG] autisLoggedIn @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  418474ms] [LOG] +++++++++++++++++++++++ @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  418474ms] [LOG] Fri Oct 23 2026 10:32:46 GMT+0800 (Singapore Standard Time) @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  418475ms] [LOG] Fri Oct 23 2026 10:22:46 GMT+0800 (Singapore Standard Time) @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  418476ms] [LOG] 9.999983333333333 @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  418479ms] [LOG] *****- /main/fundtransfer/home @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  418480ms] [LOG] autisLoggedIn @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  418481ms] [LOG] +++++++++++++++++++++++ @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  418481ms] [LOG] Fri Oct 23 2026 10:32:46 GMT+0800 (Singapore Standard Time) @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  418482ms] [LOG] Fri Oct 23 2026 10:22:46 GMT+0800 (Singapore Standard Time) @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  418482ms] [LOG] 9.999983333333333 @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  418504ms] [LOG] FILTERS ->  {statusList: Array(3)} @ https://ctbcqa.megalink.com.ph/frontend/19-es2015.fe50827e780e19caa199.js:1
+[  418505ms] [LOG] +++++++++++++++++++++++ @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  418506ms] [LOG] Fri Oct 23 2026 10:32:46 GMT+0800 (Singapore Standard Time) @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  418506ms] [LOG] Fri Oct 23 2026 10:22:46 GMT+0800 (Singapore Standard Time) @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  418506ms] [LOG] 10 @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  418508ms] [LOG] undefinedtrans list @ https://ctbcqa.megalink.com.ph/frontend/19-es2015.fe50827e780e19caa199.js:1
+[  418510ms] [LOG] +++++++++++++++++++++++ @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  418510ms] [LOG] Fri Oct 23 2026 10:32:46 GMT+0800 (Singapore Standard Time) @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  418510ms] [LOG] Fri Oct 23 2026 10:22:46 GMT+0800 (Singapore Standard Time) @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  418511ms] [LOG] 9.999983333333333 @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  418540ms] [LOG] bi @ https://ctbcqa.megalink.com.ph/frontend/11-es2015.de6941dbc47d573aa912.js:0
+[  418540ms] [WARNING] The specified value "undefined" does not conform to the required format, "yyyy-MM-dd". @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  418541ms] [WARNING] The specified value "undefined" does not conform to the required format, "yyyy-MM-dd". @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  418612ms] [LOG] C @ https://ctbcqa.megalink.com.ph/frontend/19-es2015.fe50827e780e19caa199.js:1
+[  418612ms] [LOG] [
+  {
+    "fundTransferId": "0000000001792552603331",
+    "formId": null,
+    "messageGroupId": "14",
+    "cardNo": null,
+    "fromAccountId": "001720030090",
+    "fromAccountLbl": "HITACHI UAT3 2",
+    "toAccountId": "404700000262",
+    "toAccountLbl": "3RDPT 1",
+    "toCounterId": "9405",
+    "addrUpdateId": null,
+    "email": "-",
+    "orginatingBankCode": "0001",
+    "destinationBankCode": "003",
+    "originatingBranchCode": "001",
+    "destinationBranchCode": "",
+    "transactionAmmount": "2",
+    "convertedAmount": "2",
+    "transactionCurr": "PHP",
+    "accountCurr": "PHP",
+    "isForeignCurr": 0,
+    "narrationType": "None.",
+    "narrat": null,
+    "destinationAccountHolderName": "3RDPT 1",
+    "companyId": "000006PH",
+    "networkType": "WITHIN BANK",
+    "selected": null,
+    "isShedule": null,
+    "isBulk": null,
+    "scheduleId": null,
+    "bulkId": "-1",
+    "hover": null,
+    "createdDate": null,
+    "stat": "2",
+    "addedDate": "1792552602000",
+    "addedBy": "jeffqa1",
+    "tranxTyps": "2",
+    "trxnCurr": null,
+    "frequencyAmmount": null,
+    "frequencyUnit": null,
+    "responseCode": null,
+    "responseDesc": null,
+    "transactionPurpose": "Bill Payment",
+    "isUrgent": false,
+    "category": "FUND TRANSFER",
+    "subCategory": "TRANSACTION",
+    "refNo": "00117129",
+    "trackId": null,
+    "recordId": null,
+    "detailSerialNum": null,
+    "rowNumber": null,
+    "feeCharge": null,
+    "feeCurrency": null,
+    "memo": null,
+    "transactionPurposeCode": null,
+    "fileGenerationDate": null,
+    "taxDetail": null,
+    "notificationType": null,
+    "detailRecordCount": null,
+    "trxnSequence": null,
+    "beneficiaryType": null,
+    "beneficiaryCountryCode": null,
+    "flag": null,
+    "bankSwiftCode": null,
+    "beneficiaryFaxNumber": null,
+    "feeType": null,
+    "feeAmount": null,
+    "txNote": null,
+    "filler": null,
+    "intermediaryBankName": null,
+    "intermediaryBankAddress": null,
+    "remittancePurposeDetail1": null,
+    "remittancePurposeDetail2": null,
+    "clearingType": null,
+    "clearingCode": null,
+    "gatheringPayType": null,
+    "txAmt1": null,
+    "txDesc1": null,
+    "txAmt2": null,
+    "txDesc2": null,
+    "bopInoutFlag": null,
+    "contactPersonName": null,
+    "contactPersonPhone": null,
+    "paxFxType": null,
+    "contractNo": null,
+    "invoiceNo": null,
+    "safeApproveNo": null,
+    "oppoCustomerType": null,
+    "domesticNonResidentFlag": null,
+    "beneficiaryIndicator": null,
+    "payrollDesc": null,
+    "creditIndicator": null,
+    "filler2": null,
+    "destinationBankName": "CTBC BANK",
+    "destinationBenNickname": "3RDPT 1",
+    "destinationBankAddress": null,
+    "destinationAccountHolderAddress": null,
+    "counterpartyName": null,
+    "mobileNum": null,
+    "emailAdd": null,
+    "paymentType": null,
+    "paymentOption": "OUR",
+    "processingDate": null,
+    "payorAccNo": null,
+    "payorName": null,
+    "checkNo": null,
+    "checkDate": null,
+    "brstn": null,
+    "transactionIndicator": null,
+    "creditingAccount": null,
+    "uetr": null
+  }
+] @ https://ctbcqa.megalink.com.ph/frontend/19-es2015.fe50827e780e19caa199.js:1
+[  738541ms] [LOG] *****- /main/fundtransfer/history @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  738542ms] [LOG] autisLoggedIn @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  738543ms] [LOG] +++++++++++++++++++++++ @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  738544ms] [LOG] Fri Oct 23 2026 10:38:06 GMT+0800 (Singapore Standard Time) @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  738545ms] [LOG] Fri Oct 23 2026 10:28:06 GMT+0800 (Singapore Standard Time) @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  738546ms] [LOG] 9.999983333333333 @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  738558ms] [LOG] FILTERS ->  {statusList: Array(17)} @ https://ctbcqa.megalink.com.ph/frontend/19-es2015.fe50827e780e19caa199.js:1
+[  738559ms] [LOG] +++++++++++++++++++++++ @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  738559ms] [LOG] Fri Oct 23 2026 10:38:06 GMT+0800 (Singapore Standard Time) @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  738559ms] [LOG] Fri Oct 23 2026 10:28:06 GMT+0800 (Singapore Standard Time) @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  738560ms] [LOG] 9.999983333333333 @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  738639ms] [LOG] bi @ https://ctbcqa.megalink.com.ph/frontend/11-es2015.de6941dbc47d573aa912.js:0
+[  738639ms] [WARNING] The specified value "undefined" does not conform to the required format, "yyyy-MM-dd". @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  738640ms] [WARNING] The specified value "undefined" does not conform to the required format, "yyyy-MM-dd". @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  739571ms] [LOG] +++++++++++++++++++++++ @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  739572ms] [LOG] Fri Oct 23 2026 10:38:07 GMT+0800 (Singapore Standard Time) @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  739572ms] [LOG] Fri Oct 23 2026 10:28:07 GMT+0800 (Singapore Standard Time) @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  739573ms] [LOG] 9.999983333333333 @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  756229ms] [LOG] {responseCode: 00, description: Success, accountList: Array(9)} @ https://ctbcqa.megalink.com.ph/frontend/19-es2015.fe50827e780e19caa199.js:1
+[  767887ms] [LOG] *****- /main/fundtransfer/history-view?auxNo=0000000001792425601409&type=MASTER&parentRoute=%2Fmain%2Ffundtransfer%2Fhistory @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  767888ms] [LOG] autisLoggedIn @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  767889ms] [LOG] +++++++++++++++++++++++ @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  767890ms] [LOG] Fri Oct 23 2026 10:38:35 GMT+0800 (Singapore Standard Time) @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  767890ms] [LOG] Fri Oct 23 2026 10:28:35 GMT+0800 (Singapore Standard Time) @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  767891ms] [LOG] 9.999983333333333 @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  767903ms] [LOG] {auxNo: 0000000001792425601409, type: MASTER, parentRoute: /main/fundtransfer/history} @ https://ctbcqa.megalink.com.ph/frontend/19-es2015.fe50827e780e19caa199.js:1
+[  767904ms] [LOG] +++++++++++++++++++++++ @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  767904ms] [LOG] Fri Oct 23 2026 10:38:35 GMT+0800 (Singapore Standard Time) @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  767905ms] [LOG] Fri Oct 23 2026 10:28:35 GMT+0800 (Singapore Standard Time) @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  767905ms] [LOG] 9.999983333333333 @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  768043ms] [LOG] C @ https://ctbcqa.megalink.com.ph/frontend/19-es2015.fe50827e780e19caa199.js:1
+[  768044ms] [LOG] +++++++++++++++++++++++ @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  768044ms] [LOG] Fri Oct 23 2026 10:38:36 GMT+0800 (Singapore Standard Time) @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  768045ms] [LOG] Fri Oct 23 2026 10:28:36 GMT+0800 (Singapore Standard Time) @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  768045ms] [LOG] 9.999983333333333 @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  768046ms] [LOG] his.fundTransfer.messageGroupId @ https://ctbcqa.megalink.com.ph/frontend/19-es2015.fe50827e780e19caa199.js:1
+[  768046ms] [LOG] 14 @ https://ctbcqa.megalink.com.ph/frontend/19-es2015.fe50827e780e19caa199.js:1
+[  768047ms] [LOG] his.fundTransfer @ https://ctbcqa.megalink.com.ph/frontend/19-es2015.fe50827e780e19caa199.js:1
+[  768047ms] [LOG] THIRD PARTY BANK ACCOUNT FUND TRANSFER @ https://ctbcqa.megalink.com.ph/frontend/19-es2015.fe50827e780e19caa199.js:1
+[  786430ms] [LOG] 001720030090 @ https://ctbcqa.megalink.com.ph/frontend/19-es2015.fe50827e780e19caa199.js:1
+[  786430ms] [LOG] 001720030090 @ https://ctbcqa.megalink.com.ph/frontend/19-es2015.fe50827e780e19caa199.js:1
+[  786430ms] [LOG] 1 @ https://ctbcqa.megalink.com.ph/frontend/19-es2015.fe50827e780e19caa199.js:1
+[  786431ms] [LOG] this.fromAccount @ https://ctbcqa.megalink.com.ph/frontend/19-es2015.fe50827e780e19caa199.js:1
+[  786431ms] [LOG] {accountType: 1, accountNumber: 001720030090, accountName: HITACHI UAT3 2} @ https://ctbcqa.megalink.com.ph/frontend/19-es2015.fe50827e780e19caa199.js:1
+[  786431ms] [LOG] 001610030152 @ https://ctbcqa.megalink.com.ph/frontend/19-es2015.fe50827e780e19caa199.js:1
+[  786431ms] [LOG] 001720030090 @ https://ctbcqa.megalink.com.ph/frontend/19-es2015.fe50827e780e19caa199.js:1
+[  786431ms] [LOG] 001720030105 @ https://ctbcqa.megalink.com.ph/frontend/19-es2015.fe50827e780e19caa199.js:1
+[  786431ms] [LOG] 001720030090 @ https://ctbcqa.megalink.com.ph/frontend/19-es2015.fe50827e780e19caa199.js:1
+[  786432ms] [LOG] 001630061900 @ https://ctbcqa.megalink.com.ph/frontend/19-es2015.fe50827e780e19caa199.js:1
+[  786432ms] [LOG] 001720030090 @ https://ctbcqa.megalink.com.ph/frontend/19-es2015.fe50827e780e19caa199.js:1
+[  786432ms] [LOG] 001630061927 @ https://ctbcqa.megalink.com.ph/frontend/19-es2015.fe50827e780e19caa199.js:1
+[  786432ms] [LOG] 001720030090 @ https://ctbcqa.megalink.com.ph/frontend/19-es2015.fe50827e780e19caa199.js:1
+[  786432ms] [LOG] 001720060411 @ https://ctbcqa.megalink.com.ph/frontend/19-es2015.fe50827e780e19caa199.js:1
+[  786432ms] [LOG] 001720030090 @ https://ctbcqa.megalink.com.ph/frontend/19-es2015.fe50827e780e19caa199.js:1
+[  786433ms] [LOG] 001720060425 @ https://ctbcqa.megalink.com.ph/frontend/19-es2015.fe50827e780e19caa199.js:1
+[  786433ms] [LOG] 001720030090 @ https://ctbcqa.megalink.com.ph/frontend/19-es2015.fe50827e780e19caa199.js:1
+[  786433ms] [LOG] 001630062051 @ https://ctbcqa.megalink.com.ph/frontend/19-es2015.fe50827e780e19caa199.js:1
+[  786433ms] [LOG] 001720030090 @ https://ctbcqa.megalink.com.ph/frontend/19-es2015.fe50827e780e19caa199.js:1
+[  786434ms] [LOG] 001630062065 @ https://ctbcqa.megalink.com.ph/frontend/19-es2015.fe50827e780e19caa199.js:1
+[  786434ms] [LOG] 001720030090 @ https://ctbcqa.megalink.com.ph/frontend/19-es2015.fe50827e780e19caa199.js:1
+[  786435ms] [LOG] this.account @ https://ctbcqa.megalink.com.ph/frontend/19-es2015.fe50827e780e19caa199.js:1
+[  786436ms] [LOG] {accountType: 1, accountNumber: 001720030090, accountName: HITACHI UAT3 2} @ https://ctbcqa.megalink.com.ph/frontend/19-es2015.fe50827e780e19caa199.js:1
+[  786436ms] [LOG] this.account @ https://ctbcqa.megalink.com.ph/frontend/19-es2015.fe50827e780e19caa199.js:1
+[  786436ms] [LOG] {accountNumber: 025940002059, accountName: 3RDPT 2} @ https://ctbcqa.megalink.com.ph/frontend/19-es2015.fe50827e780e19caa199.js:1
+[  801355ms] [LOG] *****- /main/fundtransfer/bulk/home @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  801356ms] [LOG] autisLoggedIn @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  801357ms] [LOG] +++++++++++++++++++++++ @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  801357ms] [LOG] Fri Oct 23 2026 10:39:09 GMT+0800 (Singapore Standard Time) @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  801358ms] [LOG] Fri Oct 23 2026 10:29:09 GMT+0800 (Singapore Standard Time) @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  801359ms] [LOG] 9.999983333333333 @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  801375ms] [LOG] +++++++++++++++++++++++ @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  801375ms] [LOG] Fri Oct 23 2026 10:39:09 GMT+0800 (Singapore Standard Time) @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  801375ms] [LOG] Fri Oct 23 2026 10:29:09 GMT+0800 (Singapore Standard Time) @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  801375ms] [LOG] 9.999983333333333 @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  801377ms] [LOG] +++++++++++++++++++++++ @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  801377ms] [LOG] Fri Oct 23 2026 10:39:09 GMT+0800 (Singapore Standard Time) @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  801378ms] [LOG] Fri Oct 23 2026 10:29:09 GMT+0800 (Singapore Standard Time) @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  801378ms] [LOG] 9.999983333333333 @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  801462ms] [LOG] bi @ https://ctbcqa.megalink.com.ph/frontend/11-es2015.de6941dbc47d573aa912.js:0
+[  801462ms] [WARNING] The specified value "undefined" does not conform to the required format, "yyyy-MM-dd". @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  801462ms] [WARNING] The specified value "undefined" does not conform to the required format, "yyyy-MM-dd". @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  829797ms] [LOG] *****- /main/report @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  829798ms] [LOG] autisLoggedIn @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  829799ms] [LOG] +++++++++++++++++++++++ @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  829800ms] [LOG] Fri Oct 23 2026 10:39:37 GMT+0800 (Singapore Standard Time) @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  829801ms] [LOG] Fri Oct 23 2026 10:29:37 GMT+0800 (Singapore Standard Time) @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  829802ms] [LOG] 9.999966666666667 @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  829819ms] [LOG] +++++++++++++++++++++++ @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  829820ms] [LOG] Fri Oct 23 2026 10:39:37 GMT+0800 (Singapore Standard Time) @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  829820ms] [LOG] Fri Oct 23 2026 10:29:37 GMT+0800 (Singapore Standard Time) @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  829821ms] [LOG] 9.999966666666667 @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  830625ms] [TABLE] [Object, Object, Object] @ https://ctbcqa.megalink.com.ph/frontend/42-es2015.e14b484f7fa1b20748f0.js:0
+[  890647ms] [LOG] CIB_TRXN_REPORTS @ https://ctbcqa.megalink.com.ph/frontend/42-es2015.e14b484f7fa1b20748f0.js:0
+[  890647ms] [LOG] +++++++++++++++++++++++ @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  890648ms] [LOG] Fri Oct 23 2026 10:40:38 GMT+0800 (Singapore Standard Time) @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  890648ms] [LOG] Fri Oct 23 2026 10:30:38 GMT+0800 (Singapore Standard Time) @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  890648ms] [LOG] 10 @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[  891391ms] [TABLE] [Object, Object, Object, Object, Object, Object, Object, Object, Object, Object] @ https://ctbcqa.megalink.com.ph/frontend/42-es2015.e14b484f7fa1b20748f0.js:0
+[  965756ms] [WARNING] Geolocation error: 3 Timeout expired @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[ 1084812ms] [LOG] *****- /main/dashboard @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[ 1084812ms] [LOG] autisLoggedIn @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[ 1084813ms] [LOG] +++++++++++++++++++++++ @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[ 1084813ms] [LOG] Fri Oct 23 2026 10:43:52 GMT+0800 (Singapore Standard Time) @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[ 1084813ms] [LOG] Fri Oct 23 2026 10:33:52 GMT+0800 (Singapore Standard Time) @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[ 1084813ms] [LOG] 9.999983333333333 @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[ 1084817ms] [LOG] +++++++++++++++++++++++ @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[ 1084818ms] [LOG] Fri Oct 23 2026 10:43:52 GMT+0800 (Singapore Standard Time) @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[ 1084818ms] [LOG] Fri Oct 23 2026 10:33:52 GMT+0800 (Singapore Standard Time) @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[ 1084818ms] [LOG] 10 @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[ 1084820ms] [LOG] +++++++++++++++++++++++ @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[ 1084820ms] [LOG] Fri Oct 23 2026 10:43:52 GMT+0800 (Singapore Standard Time) @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[ 1084820ms] [LOG] Fri Oct 23 2026 10:33:52 GMT+0800 (Singapore Standard Time) @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[ 1084820ms] [LOG] 9.999983333333333 @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[ 1084922ms] [LOG] +++++++++++++++++++++++ @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[ 1084922ms] [LOG] Fri Oct 23 2026 10:43:52 GMT+0800 (Singapore Standard Time) @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[ 1084922ms] [LOG] Fri Oct 23 2026 10:33:52 GMT+0800 (Singapore Standard Time) @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[ 1084923ms] [LOG] 10 @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[ 1084923ms] [LOG] +++++++++++++++++++++++ @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[ 1084923ms] [LOG] Fri Oct 23 2026 10:43:52 GMT+0800 (Singapore Standard Time) @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[ 1084923ms] [LOG] Fri Oct 23 2026 10:33:52 GMT+0800 (Singapore Standard Time) @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[ 1084923ms] [LOG] 10 @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[ 1084924ms] [LOG] +++++++++++++++++++++++ @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[ 1084924ms] [LOG] Fri Oct 23 2026 10:43:52 GMT+0800 (Singapore Standard Time) @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[ 1084924ms] [LOG] Fri Oct 23 2026 10:33:52 GMT+0800 (Singapore Standard Time) @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[ 1084924ms] [LOG] 9.999983333333333 @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[ 1084925ms] [LOG] +++++++++++++++++++++++ @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[ 1084925ms] [LOG] Fri Oct 23 2026 10:43:52 GMT+0800 (Singapore Standard Time) @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[ 1084925ms] [LOG] Fri Oct 23 2026 10:33:52 GMT+0800 (Singapore Standard Time) @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[ 1084925ms] [LOG] 9.999983333333333 @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[ 1084926ms] [LOG] +++++++++++++++++++++++ @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[ 1084926ms] [LOG] Fri Oct 23 2026 10:43:52 GMT+0800 (Singapore Standard Time) @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[ 1084926ms] [LOG] Fri Oct 23 2026 10:33:52 GMT+0800 (Singapore Standard Time) @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[ 1084927ms] [LOG] 10 @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[ 1084927ms] [LOG] +++++++++++++++++++++++ @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[ 1084927ms] [LOG] Fri Oct 23 2026 10:43:52 GMT+0800 (Singapore Standard Time) @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[ 1084928ms] [LOG] Fri Oct 23 2026 10:33:52 GMT+0800 (Singapore Standard Time) @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[ 1084928ms] [LOG] 10 @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[ 1084928ms] [LOG] +++++++++++++++++++++++ @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[ 1084929ms] [LOG] Fri Oct 23 2026 10:43:52 GMT+0800 (Singapore Standard Time) @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[ 1084929ms] [LOG] Fri Oct 23 2026 10:33:52 GMT+0800 (Singapore Standard Time) @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[ 1084929ms] [LOG] 10 @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[ 1084929ms] [LOG] +++++++++++++++++++++++ @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[ 1084930ms] [LOG] Fri Oct 23 2026 10:43:52 GMT+0800 (Singapore Standard Time) @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[ 1084930ms] [LOG] Fri Oct 23 2026 10:33:52 GMT+0800 (Singapore Standard Time) @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[ 1084930ms] [LOG] 10 @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[ 1084931ms] [LOG] +++++++++++++++++++++++ @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[ 1084931ms] [LOG] Fri Oct 23 2026 10:43:52 GMT+0800 (Singapore Standard Time) @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[ 1084931ms] [LOG] Fri Oct 23 2026 10:33:52 GMT+0800 (Singapore Standard Time) @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[ 1084931ms] [LOG] 10 @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[ 1084932ms] [LOG] +++++++++++++++++++++++ @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[ 1084932ms] [LOG] Fri Oct 23 2026 10:43:52 GMT+0800 (Singapore Standard Time) @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[ 1084932ms] [LOG] Fri Oct 23 2026 10:33:52 GMT+0800 (Singapore Standard Time) @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[ 1084932ms] [LOG] 10 @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[ 1084933ms] [LOG] +++++++++++++++++++++++ @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[ 1084933ms] [LOG] Fri Oct 23 2026 10:43:52 GMT+0800 (Singapore Standard Time) @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[ 1084933ms] [LOG] Fri Oct 23 2026 10:33:52 GMT+0800 (Singapore Standard Time) @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[ 1084933ms] [LOG] 10 @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[ 1084933ms] [LOG] +++++++++++++++++++++++ @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[ 1084934ms] [LOG] Fri Oct 23 2026 10:43:52 GMT+0800 (Singapore Standard Time) @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[ 1084934ms] [LOG] Fri Oct 23 2026 10:33:52 GMT+0800 (Singapore Standard Time) @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[ 1084934ms] [LOG] 10 @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[ 1084936ms] [LOG] +++++++++++++++++++++++ @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[ 1084936ms] [LOG] Fri Oct 23 2026 10:43:52 GMT+0800 (Singapore Standard Time) @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[ 1084937ms] [LOG] Fri Oct 23 2026 10:33:52 GMT+0800 (Singapore Standard Time) @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[ 1084937ms] [LOG] 9.999983333333333 @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[ 1084938ms] [LOG] +++++++++++++++++++++++ @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[ 1084938ms] [LOG] Fri Oct 23 2026 10:43:52 GMT+0800 (Singapore Standard Time) @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[ 1084938ms] [LOG] Fri Oct 23 2026 10:33:52 GMT+0800 (Singapore Standard Time) @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[ 1084938ms] [LOG] 9.999983333333333 @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[ 1084939ms] [LOG] +++++++++++++++++++++++ @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[ 1084939ms] [LOG] Fri Oct 23 2026 10:43:52 GMT+0800 (Singapore Standard Time) @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[ 1084939ms] [LOG] Fri Oct 23 2026 10:33:52 GMT+0800 (Singapore Standard Time) @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[ 1084939ms] [LOG] 9.999983333333333 @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[ 1084940ms] [LOG] +++++++++++++++++++++++ @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[ 1084940ms] [LOG] Fri Oct 23 2026 10:43:52 GMT+0800 (Singapore Standard Time) @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[ 1084941ms] [LOG] Fri Oct 23 2026 10:33:52 GMT+0800 (Singapore Standard Time) @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[ 1084941ms] [LOG] 9.999983333333333 @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[ 1085024ms] [ERROR] ERROR TypeError: Cannot read properties of undefined (reading 'length')
+    at e.tickerTapeContent (https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:2:1575486)
+    at d._next (https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:2:1575395)
+    at d.__tryOrUnsub (https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:2:137042)
+    at d.next (https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:2:136263)
+    at u._next (https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:2:135434)
+    at u.next (https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:2:135208)
+    at s._next (https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:2:1514494)
+    at s.next (https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:2:135208)
+    at l.notifyNext (https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:2:71213)
+    at s._next (https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:2:1768886) @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[ 1669427ms] [WARNING] Geolocation error: 3 Timeout expired @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[ 1686478ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://ctbcqa.megalink.com.ph/frontend/api-gateway/ibank-backoffice/backoffice/notification?previous=1792723429675&offset=0&limit=100:0
+[ 1686479ms] [ERROR] Could not fetch notifications:  v @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[ 1969430ms] [WARNING] Geolocation error: 3 Timeout expired @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[ 2269431ms] [WARNING] Geolocation error: 3 Timeout expired @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[ 2569417ms] [WARNING] Geolocation error: 3 Timeout expired @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[ 2869432ms] [WARNING] Geolocation error: 3 Timeout expired @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[ 3169428ms] [WARNING] Geolocation error: 3 Timeout expired @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[ 3469432ms] [WARNING] Geolocation error: 3 Timeout expired @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[ 3769429ms] [WARNING] Geolocation error: 3 Timeout expired @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[ 4069433ms] [WARNING] Geolocation error: 3 Timeout expired @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1
+[ 4369431ms] [WARNING] Geolocation error: 3 Timeout expired @ https://ctbcqa.megalink.com.ph/frontend/main-es2015.ca74a7fb6279494965de.js:1

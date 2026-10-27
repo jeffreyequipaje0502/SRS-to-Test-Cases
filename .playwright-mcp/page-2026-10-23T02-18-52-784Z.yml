@@ -1,0 +1,154 @@
+- generic [ref=e136]:
+  - navigation [ref=e138]:
+    - generic [ref=e139]:
+      - link:
+        - /url: "#"
+    - generic [ref=e140]:
+      - list [ref=e141]:
+        - listitem: 
+        - listitem [ref=e142]:
+          - link "" [ref=e143] [cursor=pointer]:
+            - /url: javascript:void(0)
+      - img "homepage" [ref=e146]
+      - list [ref=e147]:
+        - listitem [ref=e148]:
+          - link [ref=e149] [cursor=pointer]:
+            - /url: "#"
+            - img "user" [ref=e150]
+        - listitem [ref=e151]:
+          - link [ref=e152] [cursor=pointer]:
+            - /url: "#"
+            - img "user" [ref=e153]
+          - text:         
+        - listitem [ref=e156]:
+          - link [ref=e157] [cursor=pointer]:
+            - /url: "#"
+            - img "user" [ref=e158]
+          - text:  
+  - navigation [ref=e162]:
+    - list [ref=e163]:
+      - listitem [ref=e164] [cursor=pointer]
+      - listitem [ref=e165] [cursor=pointer]:
+        - generic [ref=e166]: Dashboard
+      - listitem [ref=e168] [cursor=pointer]:
+        - generic [ref=e169]: Security Settings
+      - listitem [ref=e171] [cursor=pointer]:
+        - generic [ref=e172]: User Maintenance
+      - listitem [ref=e174] [cursor=pointer]:
+        - generic [ref=e175]: Auth Role
+      - listitem [ref=e177] [cursor=pointer]:
+        - generic [ref=e178]: Accounts
+      - listitem [ref=e180] [cursor=pointer]:
+        - generic [ref=e181]: Counterparty Maintenance
+      - listitem [ref=e183] [cursor=pointer]:
+        - generic [ref=e184]: Biller Maintenance
+      - listitem [ref=e186] [cursor=pointer]:
+        - generic [ref=e187]: Fund Transfer
+      - listitem [ref=e189] [cursor=pointer]:
+        - generic [ref=e190]: Bills Payment
+      - listitem [ref=e192] [cursor=pointer]:
+        - generic [ref=e193]: PDC Warehousing
+      - listitem [ref=e195] [cursor=pointer]:
+        - generic [ref=e196]: Reports
+      - listitem [ref=e198] [cursor=pointer]:
+        - generic [ref=e199]: Mail Box
+      - listitem [ref=e201] [cursor=pointer]:
+        - generic [ref=e202]: Download Templates
+      - listitem [ref=e204] [cursor=pointer]:
+        - generic [ref=e205]: Service Request
+  - generic [ref=e208]:
+    - generic [ref=e210]:
+      - heading "Dashboard" [level=5] [ref=e212]
+      - list [ref=e214]:
+        - listitem [ref=e215] [cursor=pointer]:
+          - link "Home" [ref=e216]:
+            - /url: "#/main/dashboard"
+        - listitem [ref=e217] [cursor=pointer]:
+          - generic [ref=e218]: 
+          - text: Dashboard
+    - generic [ref=e220]:
+      - button "Refresh" [ref=e223] [cursor=pointer]
+      - generic [ref=e224]:
+        - generic [ref=e228]:
+          - heading "Good Morning Jeffrey!" [level=5] [ref=e229]
+          - paragraph [ref=e230]: Your last successful login was at Oct 23, 2026, 10:16:39 AM
+        - heading "Customize Dashboard" [level=5] [ref=e235] [cursor=pointer]
+      - generic [ref=e236]:
+        - generic [ref=e239]:
+          - generic [ref=e240]: Assigned Accounts
+          - generic [ref=e241]:
+            - generic [ref=e242]: 
+            - heading "9" [level=2] [ref=e246]
+        - generic [ref=e249]:
+          - generic [ref=e250]: Pending Approval Users
+          - generic [ref=e251]:
+            - generic [ref=e252]: 
+            - heading "3" [level=2] [ref=e256]
+        - generic [ref=e259]:
+          - generic [ref=e260]: Pending Verification Fund Transfers
+          - generic [ref=e261]:
+            - generic [ref=e262]: 
+            - heading "500" [level=2] [ref=e266]
+        - generic [ref=e269]:
+          - generic [ref=e270]: Pending Verification Bill Payments
+          - generic [ref=e271]:
+            - generic [ref=e272]: 
+            - heading "122" [level=2] [ref=e276]
+        - generic [ref=e279]:
+          - generic [ref=e280]: Pending Approval PDC Warehousing
+          - generic [ref=e281]:
+            - generic [ref=e282]: 
+            - heading "0" [level=2] [ref=e286]
+        - generic [ref=e289]:
+          - generic [ref=e290]: Pending Verification PDC Warehousing
+          - generic [ref=e291]:
+            - generic [ref=e292]: 
+            - heading "0" [level=2] [ref=e296]
+        - generic [ref=e299]:
+          - generic [ref=e300]: Pending PDC Warehousing
+          - generic [ref=e301]:
+            - generic [ref=e302]: 
+            - heading "0" [level=2] [ref=e306]
+        - generic [ref=e309]:
+          - generic [ref=e310]: Pending Fund Transfers
+          - generic [ref=e311]:
+            - generic [ref=e312]: 
+            - heading "2" [level=2] [ref=e316]
+        - generic [ref=e319]:
+          - generic [ref=e320]: Pending Bill Payments
+          - generic [ref=e321]:
+            - generic [ref=e322]: 
+            - heading "0" [level=2] [ref=e326]
+        - generic [ref=e329]:
+          - generic [ref=e330]: Pending Bulk Fund Transfers
+          - generic [ref=e331]:
+            - generic [ref=e332]: 
+            - heading "0" [level=2] [ref=e336]
+        - generic [ref=e339]:
+          - generic [ref=e340]: Pending Bulk Bill Payments
+          - generic [ref=e341]:
+            - generic [ref=e342]: 
+            - heading "0" [level=2] [ref=e346]
+        - generic [ref=e349]:
+          - generic [ref=e350]: Pending Approval Billers
+          - generic [ref=e351]:
+            - generic [ref=e352]: 
+            - heading "1" [level=2] [ref=e356]
+        - generic [ref=e359]:
+          - generic [ref=e360]: Pending Approval Counterparties
+          - generic [ref=e361]:
+            - generic [ref=e362]: 
+            - heading "2" [level=2] [ref=e366]
+        - generic [ref=e369]:
+          - generic [ref=e370]: Pending Approval Fund Transfers
+          - generic [ref=e371]:
+            - generic [ref=e372]: 
+            - heading "0" [level=2] [ref=e376]
+        - generic [ref=e379]:
+          - generic [ref=e380]: Pending Approval Bill Payments
+          - generic [ref=e381]:
+            - generic [ref=e382]: 
+            - heading "0" [level=2] [ref=e386]
+    - contentinfo [ref=e387]:
+      - text: Copyright @ 2024 Hitachi Digital Payments.
+      - generic [ref=e388]: version :9.29.22

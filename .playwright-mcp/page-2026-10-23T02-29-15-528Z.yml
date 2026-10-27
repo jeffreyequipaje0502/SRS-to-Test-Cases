@@ -1,0 +1,170 @@
+- generic [ref=e136]:
+  - navigation [ref=e138]:
+    - generic [ref=e139]:
+      - link:
+        - /url: "#"
+    - generic [ref=e140]:
+      - list [ref=e141]:
+        - listitem: 
+        - listitem [ref=e142]:
+          - link "" [ref=e143] [cursor=pointer]:
+            - /url: javascript:void(0)
+      - img "homepage" [ref=e146]
+      - list [ref=e147]:
+        - listitem [ref=e148]:
+          - link [ref=e149] [cursor=pointer]:
+            - /url: "#"
+            - img "user" [ref=e150]
+        - listitem [ref=e151]:
+          - link [ref=e152] [cursor=pointer]:
+            - /url: "#"
+            - img "user" [ref=e153]
+          - text:         
+        - listitem [ref=e156]:
+          - link [ref=e157] [cursor=pointer]:
+            - /url: "#"
+            - img "user" [ref=e158]
+          - text:  
+  - navigation [ref=e162]:
+    - list [ref=e163]:
+      - listitem [ref=e164] [cursor=pointer]
+      - listitem [ref=e165] [cursor=pointer]:
+        - generic [ref=e166]: Dashboard
+      - listitem [ref=e168] [cursor=pointer]:
+        - generic [ref=e169]: Security Settings
+      - listitem [ref=e171] [cursor=pointer]:
+        - generic [ref=e172]: User Maintenance
+      - listitem [ref=e174] [cursor=pointer]:
+        - generic [ref=e175]: Auth Role
+      - listitem [ref=e177] [cursor=pointer]:
+        - generic [ref=e178]: Accounts
+      - listitem [ref=e180] [cursor=pointer]:
+        - generic [ref=e181]: Counterparty Maintenance
+      - listitem [ref=e183] [cursor=pointer]:
+        - generic [ref=e184]: Biller Maintenance
+      - listitem [ref=e186] [cursor=pointer]:
+        - generic [ref=e187]: Fund Transfer
+        - list [ref=e811]:
+          - listitem [ref=e812]:
+            - generic [ref=e813]: New Fund Transfer
+          - listitem [active] [ref=e814]:
+            - generic [ref=e815]: Bulk Fund Transfer
+          - listitem [ref=e816]:
+            - generic [ref=e817]: Approve/Reject Transfer
+          - listitem [ref=e818]:
+            - generic [ref=e819]: Verify/Reject Transfer
+          - listitem [ref=e820]:
+            - generic [ref=e821]: Ongoing Fund Transfers
+          - listitem [ref=e822]:
+            - generic [ref=e823]: Scheduled Fund Transfer
+          - listitem [ref=e824]:
+            - generic [ref=e825]: Transaction History
+      - listitem [ref=e189] [cursor=pointer]:
+        - generic [ref=e190]: Bills Payment
+      - listitem [ref=e192] [cursor=pointer]:
+        - generic [ref=e193]: PDC Warehousing
+      - listitem [ref=e195] [cursor=pointer]:
+        - generic [ref=e196]: Reports
+      - listitem [ref=e198] [cursor=pointer]:
+        - generic [ref=e199]: Mail Box
+      - listitem [ref=e201] [cursor=pointer]:
+        - generic [ref=e202]: Download Templates
+      - listitem [ref=e204] [cursor=pointer]:
+        - generic [ref=e205]: Service Request
+  - generic [ref=e208]:
+    - generic [ref=e210]:
+      - heading "Bulk Fund Transfer" [level=5] [ref=e1313]
+      - list [ref=e214]:
+        - listitem [ref=e215] [cursor=pointer]:
+          - link "Home" [ref=e216]:
+            - /url: "#/main/dashboard"
+        - listitem [ref=e217] [cursor=pointer]:
+          - generic [ref=e218]: 
+          - text: Fund Transfer
+        - listitem [ref=e659] [cursor=pointer]:
+          - generic [ref=e660]: 
+          - text: Bulk-Home
+    - generic [ref=e1317]:
+      - heading "New Bulk Fund Transfer" [level=5] [ref=e1323] [cursor=pointer]
+      - generic [ref=e1328]:
+        - generic [ref=e1331]:
+          - heading "Search" [level=5] [ref=e1334]
+          - paragraph [ref=e1335]: Provide the required filters
+        - generic [ref=e1337]:
+          - generic [ref=e1339]:
+            - generic [ref=e1340]:
+              - generic [ref=e1341]: From Account
+              - listbox [ref=e1345]:
+                - generic [ref=e1346]:
+                  - generic [ref=e1347]:
+                    - generic [ref=e1348]: Select
+                    - combobox [ref=e1350]
+                  - generic [ref=e1351] [cursor=pointer]
+            - generic [ref=e1352]:
+              - generic [ref=e1353]: Batch ID
+              - textbox "Enter Batch ID" [ref=e1357]
+            - generic [ref=e1358]:
+              - generic [ref=e1359]: Transaction Type
+              - listbox [ref=e1363]:
+                - generic [ref=e1364]:
+                  - generic [ref=e1365]:
+                    - generic [ref=e1366]: Select
+                    - combobox [ref=e1368]
+                  - generic [ref=e1369] [cursor=pointer]
+            - generic [ref=e1370]:
+              - generic [ref=e1371]: Reference Name
+              - textbox "Enter Reference Name" [ref=e1375]
+            - generic [ref=e1376]:
+              - generic [ref=e1377]: Date From
+              - generic [ref=e1379]:
+                - textbox [ref=e1381]:
+                  - /placeholder: ENTER_DATE_FROM
+                - generic: MM/DD/YYYY
+            - generic [ref=e1382]:
+              - generic [ref=e1383]: Date To
+              - generic [ref=e1385]:
+                - textbox [ref=e1387]:
+                  - /placeholder: ENTER_DATE_TO
+                - generic: MM/DD/YYYY
+          - button " Search" [ref=e1391] [cursor=pointer]:
+            - generic [ref=e1392]: 
+            - text: Search
+      - generic [ref=e1396]:
+        - generic [ref=e1398]:
+          - heading "Bulk Fund Transfer" [level=4] [ref=e1399]
+          - paragraph [ref=e1400]: Uploaded bulk transactions are shown here
+        - generic [ref=e1401]:
+          - generic [ref=e1403]:
+            - table [ref=e1404]:
+              - rowgroup [ref=e1405]:
+                - row [ref=e1406]:
+                  - columnheader "Batch Ref ID" [ref=e1407]
+                  - columnheader "Processing Date" [ref=e1408]
+                  - columnheader "Transaction Type" [ref=e1409]
+                  - columnheader "Reference Name" [ref=e1410]
+                  - columnheader "Status" [ref=e1411]
+                  - columnheader "Action" [ref=e1412]
+              - rowgroup
+            - generic [ref=e1413]: NO RESULTS FOUND
+          - navigation "Page navigation example" [ref=e1417]:
+            - generic [ref=e1418]:
+              - list [ref=e1419]:
+                - listitem [ref=e1420]:
+                  - generic: 
+                - listitem [ref=e1421]:
+                  - generic [ref=e1422]: "1"
+                - listitem [ref=e1423]:
+                  - generic: 
+              - generic [ref=e1424]:
+                - generic [ref=e1425]: Rows per page
+                - listbox [ref=e1426]:
+                  - generic [ref=e1427]:
+                    - generic [ref=e1428]:
+                      - generic [ref=e1429]: "10"
+                      - generic [ref=e1430]:
+                        - combobox
+                    - generic [ref=e1431] [cursor=pointer]
+              - generic [ref=e1432]: Page 1 of 1
+    - contentinfo [ref=e387]:
+      - text: Copyright @ 2024 Hitachi Digital Payments.
+      - generic [ref=e388]: version :9.29.22

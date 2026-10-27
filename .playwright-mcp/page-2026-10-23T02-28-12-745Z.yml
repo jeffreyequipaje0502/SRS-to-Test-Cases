@@ -1,0 +1,330 @@
+- generic [ref=e136]:
+  - navigation [ref=e138]:
+    - generic [ref=e139]:
+      - link:
+        - /url: "#"
+    - generic [ref=e140]:
+      - list [ref=e141]:
+        - listitem: 
+        - listitem [ref=e142]:
+          - link "" [ref=e143] [cursor=pointer]:
+            - /url: javascript:void(0)
+      - img "homepage" [ref=e146]
+      - list [ref=e147]:
+        - listitem [ref=e148]:
+          - link [ref=e149] [cursor=pointer]:
+            - /url: "#"
+            - img "user" [ref=e150]
+        - listitem [ref=e151]:
+          - link [ref=e152] [cursor=pointer]:
+            - /url: "#"
+            - img "user" [ref=e153]
+          - text:         
+        - listitem [ref=e156]:
+          - link [ref=e157] [cursor=pointer]:
+            - /url: "#"
+            - img "user" [ref=e158]
+          - text:  
+  - navigation [ref=e162]:
+    - list [ref=e163]:
+      - listitem [ref=e164] [cursor=pointer]
+      - listitem [ref=e165] [cursor=pointer]:
+        - generic [ref=e166]: Dashboard
+      - listitem [ref=e168] [cursor=pointer]:
+        - generic [ref=e169]: Security Settings
+      - listitem [ref=e171] [cursor=pointer]:
+        - generic [ref=e172]: User Maintenance
+      - listitem [ref=e174] [cursor=pointer]:
+        - generic [ref=e175]: Auth Role
+      - listitem [ref=e177] [cursor=pointer]:
+        - generic [ref=e178]: Accounts
+      - listitem [ref=e180] [cursor=pointer]:
+        - generic [ref=e181]: Counterparty Maintenance
+      - listitem [ref=e183] [cursor=pointer]:
+        - generic [ref=e184]: Biller Maintenance
+      - listitem [ref=e186] [cursor=pointer]:
+        - generic [ref=e187]: Fund Transfer
+        - list [ref=e811]:
+          - listitem [ref=e812]:
+            - generic [ref=e813]: New Fund Transfer
+          - listitem [ref=e814]:
+            - generic [ref=e815]: Bulk Fund Transfer
+          - listitem [ref=e816]:
+            - generic [ref=e817]: Approve/Reject Transfer
+          - listitem [ref=e818]:
+            - generic [ref=e819]: Verify/Reject Transfer
+          - listitem [ref=e820]:
+            - generic [ref=e821]: Ongoing Fund Transfers
+          - listitem [ref=e822]:
+            - generic [ref=e823]: Scheduled Fund Transfer
+          - listitem [active] [ref=e824]:
+            - generic [ref=e825]: Transaction History
+      - listitem [ref=e189] [cursor=pointer]:
+        - generic [ref=e190]: Bills Payment
+      - listitem [ref=e192] [cursor=pointer]:
+        - generic [ref=e193]: PDC Warehousing
+      - listitem [ref=e195] [cursor=pointer]:
+        - generic [ref=e196]: Reports
+      - listitem [ref=e198] [cursor=pointer]:
+        - generic [ref=e199]: Mail Box
+      - listitem [ref=e201] [cursor=pointer]:
+        - generic [ref=e202]: Download Templates
+      - listitem [ref=e204] [cursor=pointer]:
+        - generic [ref=e205]: Service Request
+  - generic [ref=e208]:
+    - generic [ref=e210]:
+      - heading "Transaction History" [level=5] [ref=e946]
+      - list [ref=e214]:
+        - listitem [ref=e215] [cursor=pointer]:
+          - link "Home" [ref=e216]:
+            - /url: "#/main/dashboard"
+        - listitem [ref=e217] [cursor=pointer]:
+          - generic [ref=e218]: 
+          - text: Fund Transfer
+        - listitem [ref=e659] [cursor=pointer]:
+          - generic [ref=e660]: 
+          - text: Transaction History
+    - generic [ref=e947]:
+      - generic [ref=e951]:
+        - generic [ref=e954]:
+          - heading "Search" [level=5] [ref=e957]
+          - paragraph [ref=e958]: Provide the required filters
+        - generic [ref=e960]:
+          - generic [ref=e961]:
+            - generic [ref=e962]:
+              - generic [ref=e963]:
+                - generic [ref=e964]: From Account
+                - listbox [ref=e968]:
+                  - generic [ref=e969]:
+                    - generic [ref=e970]:
+                      - generic [ref=e971]: Select
+                      - combobox [ref=e973]
+                    - generic [ref=e974] [cursor=pointer]
+              - generic [ref=e975]:
+                - generic [ref=e976]: To Account No
+                - textbox "Enter To Account No" [ref=e980]
+              - generic [ref=e981]:
+                - generic [ref=e982]: Transaction Type
+                - listbox [ref=e986]:
+                  - generic [ref=e987]:
+                    - generic [ref=e988]:
+                      - generic [ref=e989]: Select
+                      - combobox [ref=e991]
+                    - generic [ref=e992] [cursor=pointer]
+              - generic [ref=e993]:
+                - generic [ref=e994]: Start Date
+                - generic [ref=e996]:
+                  - textbox [ref=e998]:
+                    - /placeholder: ENTER_START_DATE
+                  - generic: MM/DD/YYYY
+              - generic [ref=e999]:
+                - generic [ref=e1000]: End Date
+                - generic [ref=e1002]:
+                  - textbox [ref=e1004]:
+                    - /placeholder: ENTER_END_DATE
+                  - generic: MM/DD/YYYY
+            - generic [ref=e1006]:
+              - generic [ref=e1007]: Status
+              - generic [ref=e1009]: FAILED
+              - generic [ref=e1011]: SUCCESS
+              - generic [ref=e1013]: SENT FOR PROCESSING
+              - generic [ref=e1015]: QUEUED FOR PROCESSING
+              - generic [ref=e1017]: REJECTED
+              - generic [ref=e1019]: EXPIRED
+          - button " Search" [ref=e1034] [cursor=pointer]:
+            - generic [ref=e1035]: 
+            - text: Search
+      - generic [ref=e1038]:
+        - generic [ref=e1039]:
+          - heading "Transaction History" [level=4] [ref=e1040]
+          - paragraph [ref=e1041]: Transactions are filtered by corporate and ordered by most recent
+        - generic [ref=e1042]:
+          - table [ref=e1045]:
+            - rowgroup [ref=e1046]:
+              - row [ref=e1047]:
+                - columnheader "Ref ID" [ref=e1048]
+                - columnheader "Processing Date" [ref=e1049]
+                - columnheader "Counterparty Name" [ref=e1050]
+                - columnheader "Transaction Type" [ref=e1051]
+                - columnheader "Debiting Account" [ref=e1052]
+                - columnheader "Currency" [ref=e1053]
+                - columnheader "Transaction Amount" [ref=e1054]
+                - columnheader "Status" [ref=e1055]
+                - columnheader "Action" [ref=e1056]
+            - rowgroup [ref=e1057]:
+              - row [ref=e1058]:
+                - cell " 00117128" [ref=e1059]:
+                  - generic [ref=e1060]: 
+                  - text: "00117128"
+                - cell "10/20/2026 12:00 AM" [ref=e1061]
+                - cell "3RDPT 2" [ref=e1062]
+                - cell "Third Party Account" [ref=e1063]
+                - cell "001720030090" [ref=e1064]
+                - cell "PHP" [ref=e1065]
+                - cell "2.00" [ref=e1066]
+                - cell "FAILED" [ref=e1067]
+                - cell [ref=e1069]:
+                  - button " View" [ref=e1070] [cursor=pointer]:
+                    - generic [ref=e1071]: 
+                    - text: View
+              - row [ref=e1072]:
+                - cell " 00117127" [ref=e1073]:
+                  - generic [ref=e1074]: 
+                  - text: "00117127"
+                - cell "10/20/2026 12:00 AM" [ref=e1075]
+                - cell "3RDPT 2" [ref=e1076]
+                - cell "Third Party Account" [ref=e1077]
+                - cell "001720030090" [ref=e1078]
+                - cell "PHP" [ref=e1079]
+                - cell "2.00" [ref=e1080]
+                - cell "FAILED" [ref=e1081]
+                - cell [ref=e1083]:
+                  - button " View" [ref=e1084] [cursor=pointer]:
+                    - generic [ref=e1085]: 
+                    - text: View
+              - row [ref=e1086]:
+                - cell " 00117107" [ref=e1087]:
+                  - generic [ref=e1088]: 
+                  - text: "00117107"
+                - cell "10/14/2026 7:17 PM" [ref=e1089]
+                - cell "GLOBAL 01" [ref=e1090]
+                - cell "Global Remittance" [ref=e1091]
+                - cell "001630061900" [ref=e1092]
+                - cell "USD" [ref=e1093]
+                - cell "10.00" [ref=e1094]
+                - cell "Success" [ref=e1095]
+                - cell [ref=e1097]:
+                  - button " View" [ref=e1098] [cursor=pointer]:
+                    - generic [ref=e1099]: 
+                    - text: View
+              - row [ref=e1100]:
+                - cell " 00117105" [ref=e1101]:
+                  - generic [ref=e1102]: 
+                  - text: "00117105"
+                - cell "10/14/2026 7:07 PM" [ref=e1103]
+                - cell "GLOBAL 01" [ref=e1104]
+                - cell "Global Remittance" [ref=e1105]
+                - cell "001630061900" [ref=e1106]
+                - cell "USD" [ref=e1107]
+                - cell "8.00" [ref=e1108]
+                - cell "Success" [ref=e1109]
+                - cell [ref=e1111]:
+                  - button " View" [ref=e1112] [cursor=pointer]:
+                    - generic [ref=e1113]: 
+                    - text: View
+              - row [ref=e1114]:
+                - cell " 00117103" [ref=e1115]:
+                  - generic [ref=e1116]: 
+                  - text: "00117103"
+                - cell "10/14/2026 7:04 PM" [ref=e1117]
+                - cell "GLOBAL 01" [ref=e1118]
+                - cell "Global Remittance" [ref=e1119]
+                - cell "001630061900" [ref=e1120]
+                - cell "USD" [ref=e1121]
+                - cell "3.54" [ref=e1122]
+                - cell "Success" [ref=e1123]
+                - cell [ref=e1125]:
+                  - button " View" [ref=e1126] [cursor=pointer]:
+                    - generic [ref=e1127]: 
+                    - text: View
+              - row [ref=e1128]:
+                - cell " 00117101" [ref=e1129]:
+                  - generic [ref=e1130]: 
+                  - text: "00117101"
+                - cell "10/14/2026 10:45 AM" [ref=e1131]
+                - cell "ACCOUNT RTGS" [ref=e1132]
+                - cell "Local Remittance" [ref=e1133]
+                - cell "001720030090" [ref=e1134]
+                - cell "PHP" [ref=e1135]
+                - cell "4.00" [ref=e1136]
+                - cell "FAILED" [ref=e1137]
+                - cell [ref=e1139]:
+                  - button " View" [ref=e1140] [cursor=pointer]:
+                    - generic [ref=e1141]: 
+                    - text: View
+              - row [ref=e1142]:
+                - cell " 00116827" [ref=e1143]:
+                  - generic [ref=e1144]: 
+                  - text: "00116827"
+                - cell "-" [ref=e1145]
+                - cell "ACCOUNT PESONET" [ref=e1146]
+                - cell "Local Remittance" [ref=e1147]
+                - cell "001720030090" [ref=e1148]
+                - cell "PHP" [ref=e1149]
+                - cell "2.00" [ref=e1150]
+                - cell "EXPIRED" [ref=e1151]
+                - cell [ref=e1153]:
+                  - button " View" [ref=e1154] [cursor=pointer]:
+                    - generic [ref=e1155]: 
+                    - text: View
+              - row [ref=e1156]:
+                - cell " 00116685" [ref=e1157]:
+                  - generic [ref=e1158]: 
+                  - text: "00116685"
+                - cell "-" [ref=e1159]
+                - cell "PDDTS 1" [ref=e1160]
+                - cell "Local Remittance" [ref=e1161]
+                - cell "001630061900" [ref=e1162]
+                - cell "USD" [ref=e1163]
+                - cell "3.00" [ref=e1164]
+                - cell "EXPIRED" [ref=e1165]
+                - cell [ref=e1167]:
+                  - button " View" [ref=e1168] [cursor=pointer]:
+                    - generic [ref=e1169]: 
+                    - text: View
+              - row [ref=e1170]:
+                - cell " 00116684" [ref=e1171]:
+                  - generic [ref=e1172]: 
+                  - text: "00116684"
+                - cell "-" [ref=e1173]
+                - cell "3RDPT 1" [ref=e1174]
+                - cell "Third Party Account" [ref=e1175]
+                - cell "001720030090" [ref=e1176]
+                - cell "PHP" [ref=e1177]
+                - cell "3.00" [ref=e1178]
+                - cell "EXPIRED" [ref=e1179]
+                - cell [ref=e1181]:
+                  - button " View" [ref=e1182] [cursor=pointer]:
+                    - generic [ref=e1183]: 
+                    - text: View
+              - row [ref=e1184]:
+                - cell " 00116687" [ref=e1185]:
+                  - generic [ref=e1186]: 
+                  - text: "00116687"
+                - cell "-" [ref=e1187]
+                - cell "BANCNET 29" [ref=e1188]
+                - cell "Local Remittance" [ref=e1189]
+                - cell "001720030090" [ref=e1190]
+                - cell "PHP" [ref=e1191]
+                - cell "2.00" [ref=e1192]
+                - cell "EXPIRED" [ref=e1193]
+                - cell [ref=e1195]:
+                  - button " View" [ref=e1196] [cursor=pointer]:
+                    - generic [ref=e1197]: 
+                    - text: View
+          - navigation "Page navigation example" [ref=e1200]:
+            - generic [ref=e1201]:
+              - list [ref=e1202]:
+                - listitem [ref=e1203]:
+                  - generic: 
+                - listitem [ref=e1204]:
+                  - generic [ref=e1205]: "1"
+                - listitem [ref=e1206]:
+                  - generic [ref=e1207] [cursor=pointer]: "2"
+                - listitem [ref=e1208]:
+                  - generic [ref=e1209] [cursor=pointer]: "3"
+                - listitem [ref=e1210]:
+                  - generic [ref=e1211] [cursor=pointer]: 
+              - generic [ref=e1213]:
+                - generic [ref=e1214]: Rows per page
+                - listbox [ref=e1215]:
+                  - generic [ref=e1216]:
+                    - generic [ref=e1217]:
+                      - generic [ref=e1218]: "10"
+                      - generic [ref=e1219]:
+                        - combobox
+                    - generic [ref=e1220] [cursor=pointer]
+              - generic [ref=e1221]: Page 1 of 240
+    - contentinfo [ref=e387]:
+      - text: Copyright @ 2024 Hitachi Digital Payments.
+      - generic [ref=e388]: version :9.29.22
